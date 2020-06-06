@@ -1,4 +1,4 @@
-package com.ashish.mymall;
+package com.hamroagilepasal;
 
 public class HorizontalProductScrollModel {
 
@@ -45,7 +45,7 @@ public class HorizontalProductScrollModel {
         this.productPrice = productPrice;
     }
 
-    public HorizontalProductScrollModel(String productID,String productImage, String productTitle, String productDesc, String productPrice) {
+    public HorizontalProductScrollModel(String productID, String productImage, String productTitle, String productDesc, String productPrice) {
         this.productID=productID;
         this.productImage = productImage;
         this.productTitle = productTitle;

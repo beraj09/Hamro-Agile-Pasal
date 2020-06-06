@@ -1,6 +1,5 @@
-package com.ashish.mymall;
+package com.hamroagilepasal;
 
-import android.content.Context;
 import android.content.Intent;
 import android.content.res.ColorStateList;
 import android.graphics.Color;
@@ -12,13 +11,12 @@ import android.view.ViewGroup;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.Button;
-import androidx.gridlayout.widget.GridLayout;
-import android.widget.GridView;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.gridlayout.widget.GridLayout;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewpager.widget.ViewPager;
@@ -176,7 +174,7 @@ public class MyMallAdapter extends RecyclerView.Adapter {
 
                 @Override
                 public void onPageScrollStateChanged(int state) {
-                    if(state==ViewPager.SCROLL_STATE_IDLE){
+                    if(state== ViewPager.SCROLL_STATE_IDLE){
                         pageLooper(arrangedList);
                     }
                 }
@@ -191,7 +189,7 @@ public class MyMallAdapter extends RecyclerView.Adapter {
                     pageLooper(arrangedList);
                     stopBannerSlideShow();
 
-                    if(motionEvent.getAction()==MotionEvent.ACTION_UP){
+                    if(motionEvent.getAction()== MotionEvent.ACTION_UP){
                         startBannerSlideShow(arrangedList);
                     }
                     return false;
@@ -252,7 +250,7 @@ public class MyMallAdapter extends RecyclerView.Adapter {
 
         }
 
-        public void StripAd(String resource,String color){
+        public void StripAd(String resource, String color){
 
             Glide.with(itemView.getContext()).load(resource).apply(new RequestOptions().placeholder(R.mipmap.pic)).into(stripAdImage);
 

@@ -1,4 +1,4 @@
-package com.ashish.mymall;
+package com.hamroagilepasal;
 
 import android.content.Intent;
 import android.view.LayoutInflater;
