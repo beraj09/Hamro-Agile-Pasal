@@ -22,7 +22,6 @@ import com.hamroagilepasal.CategoryAdapter;
 import com.hamroagilepasal.CategoryModel;
 import com.hamroagilepasal.DBquerries;
 import com.hamroagilepasal.HorizontalProductScrollModel;
-import com.hamroagilepasal.MainActivity;
 import com.hamroagilepasal.MyMallAdapter;
 import com.hamroagilepasal.MyMallModel;
 import com.hamroagilepasal.R;
