@@ -1,4 +1,4 @@
-package com.ashish.mymall;
+package com.hamroagilepasal;
 
 import java.util.List;
 
@@ -103,7 +103,7 @@ public class MyMallModel {
             ///horizontal product view only
     private List<WishlistModel> viewAllProductList;
 
-    public MyMallModel(int type, String title,String backgroundColor ,List<HorizontalProductScrollModel> horizontalProductScrollModelList,List<WishlistModel> viewAllProductList) {
+    public MyMallModel(int type, String title, String backgroundColor , List<HorizontalProductScrollModel> horizontalProductScrollModelList, List<WishlistModel> viewAllProductList) {
         this.type = type;
         this.title = title;
         this.backgroundColor=backgroundColor;
