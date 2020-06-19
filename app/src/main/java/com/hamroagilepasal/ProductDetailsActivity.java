@@ -1,14 +1,4 @@
-package com.ashish.mymall;
-
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
-import androidx.constraintlayout.widget.ConstraintLayout;
-import androidx.core.view.GravityCompat;
-import androidx.drawerlayout.widget.DrawerLayout;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-import androidx.viewpager.widget.ViewPager;
+package com.hamroagilepasal;
 
 import android.app.Activity;
 import android.app.Dialog;
@@ -27,8 +17,14 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.ashish.mymall.ui.my_cart.MyCartFragment;
-import com.ashish.mymall.ui.my_mall.MyMallFragment;
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.viewpager.widget.ViewPager;
+
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -45,11 +41,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-
-import javax.xml.parsers.DocumentBuilder;
-
-import static com.ashish.mymall.MainActivity.showCart;
-import static com.ashish.mymall.RegisterActivity.setsignUpFragment;
+import static com.hamroagilepasal.MainActivity.showCart;
+import static com.hamroagilepasal.RegisterActivity.setsignUpFragment;
 
 public class ProductDetailsActivity extends AppCompatActivity {
 
@@ -381,7 +374,7 @@ public class ProductDetailsActivity extends AppCompatActivity {
                                             }
                                             else {
                                                 String error=task.getException().getMessage();
-                                                Toast.makeText(ProductDetailsActivity.this,error,Toast.LENGTH_SHORT).show();
+                                                Toast.makeText(ProductDetailsActivity.this,error, Toast.LENGTH_SHORT).show();
                                             }
                                         }
                                     });
