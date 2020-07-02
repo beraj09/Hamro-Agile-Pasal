@@ -1,8 +1,8 @@
 package com.hamroagilepasal;
 
-import androidx.appcompat.app.AppCompatActivity;
+        import androidx.appcompat.app.AppCompatActivity;
 
-import android.os.Bundle;
+        import android.os.Bundle;
 
 public class DeliveryActivity extends AppCompatActivity {
 
