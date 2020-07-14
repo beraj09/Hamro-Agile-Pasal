@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DeliveryActivity"></activity>
+        <activity android:name=".OTPverificationActivity"></activity>
+        <activity android:name=".DeliveryActivity" />
         <activity android:name=".AddAddressActivity" />
         <activity android:name=".MyAddressesActivity" />
         <activity android:name=".OrderDetailsActivity" />
