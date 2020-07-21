@@ -1,5 +1,9 @@
 <resources>
-    <string name="app_name">HamroAgilePasal</string>
+    <string name="app_name">Hamro Agile Pasal</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">Main2Activity</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
@@ -10,4 +14,35 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string-array name="nepali_states">
+        <item>Kathmanu</item>
+        <item>Biratnagar</item>
+        <item>Illam</item>
+        <item>Jhapa</item>
+        <item>Morang</item>
+        <item>Chitwan</item>
+        <item>SimiKot</item>
+        <item>Bhaktapur</item>
+        <item>Lalitpur</item>
+        <item>Hetauda</item>
+        <item>Markhu</item>
+        <item>Nuwakot</item>
+        <item>Dhulikhel</item>
+        <item>Baglung</item>
+        <item>Mechi</item>
+        <item>Mahakali</item>
+        <item>koshi</item>
+        <item>nepalgunj</item>
+        <item>birgunj</item>
+        <item>Solukhumbu</item>
+        <item>Kavre</item>
+        <item>Dolalghat</item>
+
+    </string-array>
+
 </resources>

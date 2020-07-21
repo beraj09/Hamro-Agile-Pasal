@@ -3,4 +3,9 @@
     <color name="colorPrimary">#49F9ED</color>
     <color name="colorPrimaryDark">#49F9ED</color>
     <color name="colorAccent">#ffffff</color>
+    <color name="successGreen">#11a10c</color>
+    <color name="recyclerviewBackground">#d6d6d6</color>
+    <color name="coupanPurple">#3606b6</color>
+    <color name="coupanRed">#FF3030</color>
+
 </resources>
