@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "104545111286",
+    "firebase_url": "https://hamro-agile-pasal.firebaseio.com",
+    "project_id": "hamro-agile-pasal",
+    "storage_bucket": "hamro-agile-pasal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:104545111286:android:56511129a70b4e22da70d7",
+        "android_client_info": {
+          "package_name": "com.hamroagilepasal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "104545111286-amc0q11c5qvgpufe6et00jbnsbtvghgi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hamroagilepasal",
+            "certificate_hash": "805e3efe2810eb4cf5aa03b0afa7a49ebe7c35a1"
+          }
+        },
+        {
+          "client_id": "104545111286-ilmrisvjbvfgacn276rp68qqs1u0u3lv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLFMsjMAWYVF5Fcl2iaqlUzgcdmvfx5js"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "104545111286-ilmrisvjbvfgacn276rp68qqs1u0u3lv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
