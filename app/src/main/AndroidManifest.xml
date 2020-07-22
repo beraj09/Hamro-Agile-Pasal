@@ -16,7 +16,7 @@
         android:roundIcon="@drawable/logomain"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".NotificationActivity"></activity>
+        <activity android:name=".NotificationActivity"/>
         <activity android:name=".SearchActivity" />
         <activity android:name=".UpdateUserInfoActivity" />
         <activity android:name=".OTPverificationActivity" />
