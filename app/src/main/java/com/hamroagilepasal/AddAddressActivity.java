@@ -60,7 +60,7 @@ public class AddAddressActivity extends AppCompatActivity {
         mobileNo=findViewById(R.id.mobile_no);
         alternateMobileNo=findViewById(R.id.alternate_mobile_no);
         stateSpinner=findViewById(R.id.state_spinner);
-        stateList=getResources().getStringArray(R.array.india_states);
+        stateList=getResources().getStringArray(R.array.nepali_states);
 //////////loading dialog
 
         loadingDialog=new Dialog(AddAddressActivity.this);
