@@ -37,6 +37,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import es.dmoral.toasty.Toasty;
+
 public class DBquerries {
     public static String email,fullname,profile;
 
@@ -630,7 +632,7 @@ public class DBquerries {
                                                     @Override
                                                     public void onComplete(@NonNull Task<QuerySnapshot> task) {
                                                         if (task.isSuccessful()) {
-                                                            //Toasty.success(context,"order mil gya",Toasty.LENGTH_SHORT,true).show();
+                                                            Toasty.success(context,"order mil gya",Toasty.LENGTH_SHORT,true).show();
                                                             for (DocumentSnapshot orderItems : task.getResult().getDocuments()) {
 
                                                                 MyOrderItemModel myOrderItemModel = new MyOrderItemModel(

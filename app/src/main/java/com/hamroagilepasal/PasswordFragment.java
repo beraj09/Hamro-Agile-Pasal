@@ -26,8 +26,6 @@ import com.google.firebase.auth.FirebaseUser;
 
 import es.dmoral.toasty.Toasty;
 
-//import es.dmoral.toasty.Toasty;
-
 
 public class PasswordFragment extends Fragment {
     public PasswordFragment() {

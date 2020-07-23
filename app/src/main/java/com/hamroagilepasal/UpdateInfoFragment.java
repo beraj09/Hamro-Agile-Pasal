@@ -354,7 +354,7 @@ public class UpdateInfoFragment extends Fragment {
                     }
                     getActivity().finish();
                     Toasty.success(getContext(), "Successfully updated !", Toast.LENGTH_SHORT, true).show();
-                    //Toast.makeText(getContext(), "Successfully updated!",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getContext(), "Successfully updated!",Toast.LENGTH_SHORT).show();
                 }else {
                     String error=task.getException().getMessage();
                     Toast.makeText(getContext(), error, Toast.LENGTH_SHORT).show();
