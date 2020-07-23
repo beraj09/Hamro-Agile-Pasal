@@ -80,7 +80,7 @@ public class DBquerries {
                     public void onComplete(@NonNull Task<QuerySnapshot> task) {
                         if(task.isSuccessful()){
                             for(QueryDocumentSnapshot queryDocumentSnapshot : task.getResult()){
-                                categoryModelList.add(new CategoryModel(queryDocumentSnapshot.get("icon").toString(),queryDocumentSnapshot.get("categoryName").toString()));
+                                categoryModelList.add(new CategoryModel(queryDocumentSnapshot.get("icons").toString(),queryDocumentSnapshot.get("categoryName").toString()));
                             }
                             CategoryAdapter categoryAdapter= new CategoryAdapter(categoryModelList);
                             categoryRecyclerView.setAdapter(categoryAdapter);
