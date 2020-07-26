@@ -1,0 +1,1296 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 518 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 9056974 0 0
+ciMethod java/lang/Object getClass ()Ljava/lang/Class; 2049 1 256 0 -1
+ciMethod java/lang/Object hashCode ()I 2049 1 256 0 -1
+ciMethod java/lang/Object equals (Ljava/lang/Object;)Z 2401 1 124914 0 64
+ciMethod java/lang/Object clone ()Ljava/lang/Object; 2049 1 256 0 -1
+ciMethod java/lang/String <init> ([CII)V 1865 1 6483 0 -1
+ciMethod java/lang/String equals (Ljava/lang/Object;)Z 2097 10321 2990 0 -1
+ciMethod java/lang/Class isInstance (Ljava/lang/Object;)Z 2049 1 256 0 -1
+ciMethod java/lang/Class isAssignableFrom (Ljava/lang/Class;)Z 2049 1 256 0 -1
+ciMethod java/lang/Class getClassLoader ()Ljava/lang/ClassLoader; 3185 1 37948 0 -1
+ciMethod java/lang/System getSecurityManager ()Ljava/lang/SecurityManager; 2049 1 182351 0 -1
+ciMethod java/lang/System nanoTime ()J 3073 1 384 0 -1
+ciMethod java/lang/reflect/Method getName ()Ljava/lang/String; 2969 1 371 0 0
+ciMethod java/lang/invoke/DirectMethodHandle internalMemberName (Ljava/lang/Object;)Ljava/lang/Object; 2065 1 552555 0 -1
+ciMethod java/lang/AbstractStringBuilder <init> (I)V 1081 1 483794 0 -1
+ciMethod java/lang/AbstractStringBuilder append (Ljava/lang/String;)Ljava/lang/AbstractStringBuilder; 1945 1 5408 0 -1
+ciMethod java/lang/StringBuilder <init> ()V 865 1 419135 0 192
+ciMethod java/lang/StringBuilder append (Ljava/lang/String;)Ljava/lang/StringBuilder; 1657 1 1192931 0 992
+ciMethod java/lang/StringBuilder toString ()Ljava/lang/String; 849 1 444030 0 832
+ciMethod java/io/File getAbsolutePath ()Ljava/lang/String; 2049 1 34740 0 -1
+ciMethod java/lang/Boolean valueOf (Z)Ljava/lang/Boolean; 1065 1 337516 0 64
+ciMethod java/lang/Integer valueOf (I)Ljava/lang/Integer; 73 1 266190 0 -1
+ciMethod java/util/Comparator compare (Ljava/lang/Object;Ljava/lang/Object;)I 0 0 1 0 -1
+ciMethod java/lang/Iterable iterator ()Ljava/util/Iterator; 0 0 1 0 -1
+ciMethod java/util/Collection isEmpty ()Z 0 0 1 0 -1
+ciMethod java/util/Collection toArray ()[Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/ArrayList <init> ()V 1481 1 219395 0 -1
+ciMethod java/util/ArrayList isEmpty ()Z 2065 1 11723 0 64
+ciMethod java/util/ArrayList toArray ()[Ljava/lang/Object; 2049 1 5390 0 416
+ciMethod sun/reflect/Reflection getCallerClass ()Ljava/lang/Class; 2049 1 256 0 -1
+ciMethod java/util/Map$Entry getKey ()Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/Map$Entry getValue ()Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/Objects requireNonNull (Ljava/lang/Object;)Ljava/lang/Object; 2145 1 671413 0 -1
+ciMethod java/util/Iterator hasNext ()Z 0 0 1 0 -1
+ciMethod java/util/Iterator next ()Ljava/lang/Object; 0 0 1 0 -1
+ciMethod sun/reflect/misc/ReflectUtil checkPackageAccess (Ljava/lang/Class;)V 4097 1 20671 0 -1
+ciMethod sun/reflect/misc/ReflectUtil needsPackageAccessCheck (Ljava/lang/ClassLoader;Ljava/lang/ClassLoader;)Z 0 0 1 0 -1
+ciMethod java/util/Arrays sort ([Ljava/lang/Object;IILjava/util/Comparator;)V 121 1 8208 0 -1
+ciMethod java/util/Arrays copyOf ([Ljava/lang/Object;I)[Ljava/lang/Object; 2049 1 40541 0 -1
+ciMethodData java/lang/Object <init> ()V 2 9056987 orig 264 88 29 212 84 0 0 0 0 128 4 159 22 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 217 134 81 4 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethod java/lang/IllegalArgumentException <init> (Ljava/lang/String;)V 0 0 48 0 -1
+ciMethod java/util/concurrent/ConcurrentMap containsKey (Ljava/lang/Object;)Z 0 0 1 0 -1
+ciMethod java/util/function/Function apply (Ljava/lang/Object;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/lang/invoke/MethodHandle linkToStatic (Ljava/lang/Object;Ljava/lang/invoke/MemberName;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/lang/invoke/MethodHandle invokeBasic (Ljava/lang/Object;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethodData java/lang/Object equals (Ljava/lang/Object;)Z 2 124914 orig 264 88 29 212 84 0 0 0 0 232 6 159 22 0 0 0 0 136 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44 1 0 0 49 54 15 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 56 0 0 0 255 255 255 255 7 0 2 0 0 0 0 0 data 7 0x20007 0xf7cd 0x38 0xef0b 0x60003 0xef10 0x18 oops 0
+ciMethod java/lang/invoke/MethodHandle linkToStatic (Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/invoke/MemberName;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/lang/reflect/InvocationHandler invoke (Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/lang/reflect/Proxy isProxyClass (Ljava/lang/Class;)Z 2049 1 8690 0 0
+ciMethod java/lang/reflect/Proxy getInvocationHandler (Ljava/lang/Object;)Ljava/lang/reflect/InvocationHandler; 9 1 38 0 0
+ciMethod java/lang/reflect/WeakCache containsValue (Ljava/lang/Object;)Z 0 0 89 0 0
+ciMethod java/lang/reflect/WeakCache expungeStaleEntries ()V 369 1 3121 0 -1
+ciMethod java/util/function/Supplier get ()Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/lang/invoke/LambdaForm$DMH invokeStatic_L_L (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; 2097 1 292832 0 -1
+ciMethod java/lang/invoke/LambdaForm$DMH invokeStatic_L11_L (Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; 3073 1 8712 0 -1
+ciMethod org/gradle/internal/time/Time startTimer ()Lorg/gradle/internal/time/Timer; 3073 1 9059 0 0
+ciMethod org/gradle/internal/time/TimeSource nanoTime ()J 0 0 1 0 -1
+ciMethod org/gradle/internal/time/TimeSource$1 nanoTime ()J 2057 1 33465 0 0
+ciMethod org/gradle/internal/dispatch/Dispatch dispatch (Ljava/lang/Object;)V 0 0 1 0 -1
+ciMethod org/gradle/internal/dispatch/ProxyDispatchAdapter$DispatchingInvocationHandler invoke (Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object; 2057 1 12558 0 1280
+ciMethod com/google/common/collect/ImmutableList copyOf (Ljava/util/Collection;)Lcom/google/common/collect/ImmutableList; 2105 1 7437 0 544
+ciMethod com/google/common/collect/ImmutableList construct ([Ljava/lang/Object;)Lcom/google/common/collect/ImmutableList; 2545 1 56516 0 288
+ciMethod com/google/common/collect/ImmutableList asImmutableList ([Ljava/lang/Object;)Lcom/google/common/collect/ImmutableList; 2537 1 78687 0 -1
+ciMethod com/google/common/collect/ImmutableCollection toArray ()[Ljava/lang/Object; 33 1 829 0 -1
+ciMethod com/google/common/collect/ImmutableCollection asList ()Lcom/google/common/collect/ImmutableList; 0 0 1 0 -1
+ciMethod com/google/common/collect/ImmutableCollection isPartialView ()Z 0 0 1 0 -1
+ciMethod org/gradle/api/internal/file/FileCollectionFactory fixed ([Ljava/io/File;)Lorg/gradle/api/internal/file/FileCollectionInternal; 0 0 1 0 -1
+ciMethod com/google/common/collect/ImmutableSet of ()Lcom/google/common/collect/ImmutableSet; 409 1 36433 0 -1
+ciMethod com/google/common/collect/ImmutableSet of (Ljava/lang/Object;)Lcom/google/common/collect/ImmutableSet; 1473 1 35775 0 192
+ciMethod com/google/common/collect/ImmutableSet construct (I[Ljava/lang/Object;)Lcom/google/common/collect/ImmutableSet; 2033 10401 19073 0 -1
+ciMethod com/google/common/collect/ImmutableSet copyOf ([Ljava/lang/Object;)Lcom/google/common/collect/ImmutableSet; 2049 1 6717 0 480
+ciMethod com/google/common/collect/SingletonImmutableSet <init> (Ljava/lang/Object;)V 1481 1 35775 0 -1
+ciMethod com/google/common/collect/CollectPreconditions checkEntryNotNull (Ljava/lang/Object;Ljava/lang/Object;)V 2401 1 5495 0 96
+ciMethod com/google/common/collect/ObjectArrays checkElementsNotNull ([Ljava/lang/Object;)[Ljava/lang/Object; 2545 1 63622 0 -1
+ciMethod org/gradle/internal/dispatch/MethodInvocation <init> (Ljava/lang/reflect/Method;[Ljava/lang/Object;)V 2025 1 12406 0 96
+ciMethod org/gradle/internal/time/DefaultTimer <init> (Lorg/gradle/internal/time/TimeSource;)V 2049 1 9900 0 0
+ciMethod org/gradle/internal/time/DefaultTimer reset ()V 2049 1 15394 0 0
+ciMethod java/lang/invoke/LambdaForm$MH linkToTargetMethod (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; 2049 1 291739 0 -1
+ciMethod java/util/concurrent/Callable call ()Ljava/lang/Object; 0 0 1 0 -1
+ciMethod org/gradle/api/internal/file/FileCollectionStructureVisitor prepareForVisit (Lorg/gradle/api/internal/file/FileCollectionInternal$Source;)Lorg/gradle/api/internal/file/FileCollectionStructureVisitor$VisitType; 3081 1 17414 0 0
+ciMethod org/gradle/api/internal/file/FileCollectionStructureVisitor visitCollection (Lorg/gradle/api/internal/file/FileCollectionInternal$Source;Ljava/lang/Iterable;)V 0 0 1 0 -1
+ciMethod java/util/AbstractMap$SimpleImmutableEntry <init> (Ljava/lang/Object;Ljava/lang/Object;)V 3177 1 89082 0 64
+ciMethod com/google/common/collect/ImmutableMap entryOf (Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map$Entry; 3073 1 17438 0 0
+ciMethod com/google/common/collect/ImmutableMap checkNoConflict (ZLjava/lang/String;Ljava/util/Map$Entry;Ljava/util/Map$Entry;)V 1033 1 3516 0 -1
+ciMethodData com/google/common/collect/CollectPreconditions checkEntryNotNull (Ljava/lang/Object;Ljava/lang/Object;)V 2 5495 orig 264 88 29 212 84 0 0 0 0 216 48 253 22 0 0 0 0 32 3 0 0 192 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44 1 0 0 89 162 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 17 0 2 0 0 0 208 1 0 0 255 255 255 255 7 0 1 0 0 0 0 0 data 58 0x10007 0x144b 0xd0 0x0 0xc0002 0x0 0x110005 0x0 0x0 0x0 0x0 0x0 0x150005 0x0 0x0 0x0 0x0 0x0 0x180005 0x0 0x0 0x0 0x0 0x0 0x1b0002 0x0 0x200007 0x144b 0x100 0x0 0x2b0002 0x0 0x300005 0x0 0x0 0x0 0x0 0x0 0x340005 0x0 0x0 0x0 0x0 0x0 0x390005 0x0 0x0 0x0 0x0 0x0 0x3c0005 0x0 0x0 0x0 0x0 0x0 0x3f0002 0x0 oops 0
+ciMethod org/gradle/internal/vfs/VirtualFileSystem read (Ljava/lang/String;Ljava/util/function/Function;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod org/gradle/internal/fingerprint/FileCollectionSnapshotter snapshot (Lorg/gradle/api/file/FileCollection;)Ljava/util/List; 0 0 1 0 -1
+ciMethod org/gradle/api/internal/artifacts/transform/TransformationWorkspaceProvider getExecutionHistoryStore ()Lorg/gradle/internal/execution/history/ExecutionHistoryStore; 0 0 1 0 -1
+ciMethod org/gradle/api/internal/artifacts/transform/ImmutableTransformationWorkspaceProvider getExecutionHistoryStore ()Lorg/gradle/internal/execution/history/ExecutionHistoryStore; 1025 1 128 0 0
+ciMethod org/gradle/api/internal/artifacts/transform/AbstractCachingTransformationWorkspaceProvider getExecutionHistoryStore ()Lorg/gradle/internal/execution/history/ExecutionHistoryStore; 4097 1 8705 0 0
+ciMethodData java/util/ArrayList isEmpty ()Z 2 11723 orig 264 88 29 212 84 0 0 0 0 16 27 172 22 0 0 0 0 88 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 73 102 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 56 0 0 0 255 255 255 255 7 0 4 0 0 0 0 0 data 7 0x40007 0x2009 0x38 0xcc0 0x80003 0xcc0 0x18 oops 0
+ciMethodData java/lang/invoke/DirectMethodHandle internalMemberName (Ljava/lang/Object;)Ljava/lang/Object; 2 552555 orig 264 88 29 212 84 0 0 0 0 248 44 164 22 0 0 0 0 120 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 1 0 0 73 107 67 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 48 0 0 0 255 255 255 255 4 0 1 0 0 0 0 0 data 6 0x10004 0x0 0x2742840 0x5e3e 0x0 0x0 oops 1 2 java/lang/invoke/DirectMethodHandle
+ciMethod org/gradle/api/internal/artifacts/transform/ArtifactTransformListener beforeTransformerInvocation (Lorg/gradle/api/Describable;Lorg/gradle/api/Describable;)V 0 0 1 0 -1
+ciMethod org/gradle/api/internal/artifacts/transform/ArtifactTransformListener afterTransformerInvocation (Lorg/gradle/api/Describable;Lorg/gradle/api/Describable;)V 0 0 1 0 -1
+ciMethod org/gradle/internal/fingerprint/impl/DefaultFileCollectionSnapshotter snapshot (Lorg/gradle/api/file/FileCollection;)Ljava/util/List; 2049 1 18282 0 0
+ciMethod org/gradle/internal/fingerprint/impl/DefaultFileCollectionSnapshotter access$100 (Lorg/gradle/internal/fingerprint/impl/DefaultFileCollectionSnapshotter;)Lorg/gradle/internal/vfs/VirtualFileSystem; 1049 1 131 0 -1
+ciMethod org/gradle/api/internal/file/DefaultFileCollectionFactory empty ()Lorg/gradle/api/internal/file/FileCollectionInternal; 0 0 1 0 -1
+ciMethod org/gradle/api/internal/file/DefaultFileCollectionFactory fixed ([Ljava/io/File;)Lorg/gradle/api/internal/file/FileCollectionInternal; 2057 1 17410 0 0
+ciMethod org/gradle/api/internal/file/DefaultFileCollectionFactory fixed (Ljava/lang/String;[Ljava/io/File;)Lorg/gradle/api/internal/file/FileCollectionInternal; 2057 1 17419 0 0
+ciMethod org/gradle/api/internal/file/FileCollectionInternal visitStructure (Lorg/gradle/api/internal/file/FileCollectionStructureVisitor;)V 0 0 1 0 -1
+ciMethod org/gradle/api/internal/file/AbstractFileCollection <init> ()V 2049 1 35324 0 32
+ciMethod org/gradle/api/internal/file/AbstractFileCollection visitStructure (Lorg/gradle/api/internal/file/FileCollectionStructureVisitor;)V 3073 1 18034 0 0
+ciMethod org/gradle/api/internal/file/DefaultFileSystemLocation <init> (Ljava/io/File;)V 2049 1 9904 0 0
+ciMethod org/gradle/api/internal/provider/AbstractMinimalProvider <init> ()V 2049 1 28810 0 0
+ciMethod org/gradle/api/internal/provider/Providers$FixedValueProvider <init> (Ljava/lang/Object;)V 2049 1 13144 0 0
+ciMethod org/gradle/api/internal/provider/AbstractProviderWithValue <init> ()V 2049 1 13161 0 0
+ciMethod org/gradle/api/internal/artifacts/transform/TransformationWorkspaceProvider$TransformationWorkspace getOutputDirectory ()Ljava/io/File; 0 0 1 0 -1
+ciMethod org/gradle/api/internal/artifacts/transform/TransformationWorkspaceProvider$TransformationWorkspace getResultsFile ()Ljava/io/File; 0 0 1 0 -1
+ciMethod org/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory fireTransformListeners (Lorg/gradle/api/internal/artifacts/transform/Transformer;Lorg/gradle/api/internal/artifacts/transform/TransformationSubject;Ljava/util/function/Supplier;)Lorg/gradle/internal/Try; 4097 1 8702 0 0
+ciMethod org/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory snapshotOutputs (Lorg/gradle/internal/fingerprint/FileCollectionSnapshotter;Lorg/gradle/api/internal/file/FileCollectionFactory;Lorg/gradle/api/internal/artifacts/transform/TransformationWorkspaceProvider$TransformationWorkspace;)Lcom/google/common/collect/ImmutableSortedMap; 4097 1 8697 0 0
+ciMethod org/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory access$200 (Lorg/gradle/internal/fingerprint/FileCollectionSnapshotter;Lorg/gradle/api/internal/file/FileCollectionFactory;Lorg/gradle/api/internal/artifacts/transform/TransformationWorkspaceProvider$TransformationWorkspace;)Lcom/google/common/collect/ImmutableSortedMap; 4097 1 8703 0 0
+ciMethod org/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory access$300 (Lorg/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory;Lorg/gradle/api/internal/artifacts/transform/Transformer;Lorg/gradle/api/internal/artifacts/transform/TransformationSubject;Ljava/util/function/Supplier;)Lorg/gradle/internal/Try; 4097 1 8701 0 0
+ciMethod org/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory access$400 (Lorg/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory;)Lorg/gradle/internal/fingerprint/FileCollectionSnapshotter; 1025 1 128 0 0
+ciMethod org/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory access$500 (Lorg/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory;)Lorg/gradle/api/internal/file/FileCollectionFactory; 1025 1 128 0 0
+ciMethod org/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory access$600 (Lorg/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory;)Lorg/gradle/internal/execution/WorkExecutor; 1025 1 128 0 0
+ciMethod org/gradle/internal/execution/impl/DefaultWorkExecutor execute (Lorg/gradle/internal/execution/Context;)Lorg/gradle/internal/execution/Result; 3073 1 8898 0 0
+ciMethod org/gradle/internal/execution/steps/LoadExecutionStateStep execute (Lorg/gradle/internal/execution/ExecutionRequestContext;)Lorg/gradle/internal/execution/Result; 4097 1 5661 0 -1
+ciMethod org/gradle/internal/execution/steps/LoadExecutionStateStep execute (Lorg/gradle/internal/execution/Context;)Lorg/gradle/internal/execution/Result; 4097 1 5661 0 4768
+ciMethod com/google/common/collect/ImmutableSortedMap emptyMap (Ljava/util/Comparator;)Lcom/google/common/collect/ImmutableSortedMap; 41 1 197 0 -1
+ciMethod com/google/common/collect/ImmutableSortedMap of (Ljava/util/Comparator;Ljava/lang/Object;Ljava/lang/Object;)Lcom/google/common/collect/ImmutableSortedMap; 1513 1 3184 0 -1
+ciMethod com/google/common/collect/ImmutableSortedMap of (Ljava/lang/Comparable;Ljava/lang/Object;Ljava/lang/Comparable;Ljava/lang/Object;)Lcom/google/common/collect/ImmutableSortedMap; 2049 1 8700 0 0
+ciMethod com/google/common/collect/ImmutableSortedMap ofEntries ([Ljava/util/Map$Entry;)Lcom/google/common/collect/ImmutableSortedMap; 2049 1 8719 0 0
+ciMethod com/google/common/collect/ImmutableSortedMap fromEntries (Ljava/util/Comparator;Z[Ljava/util/Map$Entry;I)Lcom/google/common/collect/ImmutableSortedMap; 2049 3073 7542 0 5024
+ciMethod com/google/common/collect/ImmutableSortedMap <init> (Lcom/google/common/collect/RegularImmutableSortedSet;Lcom/google/common/collect/ImmutableList;)V 2049 1 14236 0 -1
+ciMethod org/gradle/api/internal/file/DefaultFileCollectionFactory$FixedFileCollection <init> (Ljava/lang/String;Lcom/google/common/collect/ImmutableSet;)V 2049 1 17420 0 0
+ciMethod com/google/common/collect/Ordering natural ()Lcom/google/common/collect/Ordering; 2049 1 285004 0 0
+ciMethod java/util/Optional flatMap (Ljava/util/function/Function;)Ljava/util/Optional; 2049 1 5685 0 -1
+ciMethod org/gradle/internal/execution/Step execute (Lorg/gradle/internal/execution/Context;)Lorg/gradle/internal/execution/Result; 0 0 1 0 -1
+ciMethod org/gradle/internal/execution/WorkExecutor execute (Lorg/gradle/internal/execution/Context;)Lorg/gradle/internal/execution/Result; 0 0 1 0 -1
+ciMethod org/gradle/internal/execution/Context getWork ()Lorg/gradle/internal/execution/UnitOfWork; 0 0 1 0 -1
+ciMethod org/gradle/internal/execution/Result getOutcome ()Lorg/gradle/internal/Try; 0 0 1 0 -1
+ciMethodData java/lang/reflect/Proxy isProxyClass (Ljava/lang/Class;)Z 2 8690 orig 264 88 29 212 84 0 0 0 0 112 24 219 22 0 0 0 0 0 2 0 0 48 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 145 7 1 0 1 0 0 0 228 25 0 0 0 0 0 0 2 0 0 0 1 0 17 0 2 0 0 0 184 0 0 0 255 255 255 255 5 0 3 0 0 0 0 0 data 23 0x30005 0x1b 0x2679c70 0x20d7 0x0 0x0 0x6e007 0x209d 0x88 0x56 0xd0005 0x1 0x22d0a4f0 0x55 0x0 0x0 0x100007 0x4 0x38 0x52 0x140003 0x52 0x18 oops 2 2 java/lang/Class 12 java/lang/reflect/WeakCache
+ciMethodData java/lang/reflect/WeakCache containsValue (Ljava/lang/Object;)Z 1 89 orig 264 88 29 212 84 0 0 0 0 128 43 219 22 0 0 0 0 176 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 201 2 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 96 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 12 0x10002 0x59 0x60002 0x59 0x120002 0x59 0x150005 0x0 0x27d21780 0x59 0x0 0x0 oops 1 8 java/util/concurrent/ConcurrentHashMap
+ciMethodData java/util/AbstractMap$SimpleImmutableEntry <init> (Ljava/lang/Object;Ljava/lang/Object;)V 2 89082 orig 264 88 29 212 84 0 0 0 0 8 147 105 28 0 0 0 0 64 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 141 1 0 0 105 211 10 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x15a6b oops 0
+ciMethod com/google/common/collect/RegularImmutableSortedSet <init> (Lcom/google/common/collect/ImmutableList;Ljava/util/Comparator;)V 2081 1 19204 0 -1
+ciMethodData org/gradle/internal/time/TimeSource$1 nanoTime ()J 2 33465 orig 264 88 29 212 84 0 0 0 0 216 218 227 22 0 0 0 0 88 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 193 13 4 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 0 0 0 0 0 0 data 2 0x2 0x81ba oops 0
+ciMethod org/gradle/api/internal/provider/Providers of (Ljava/lang/Object;)Lorg/gradle/api/internal/provider/ProviderInternal; 2049 1 8951 0 0
+ciMethodData java/lang/Boolean valueOf (Z)Ljava/lang/Boolean; 2 337516 orig 264 88 29 212 84 0 0 0 0 128 128 168 22 0 0 0 0 88 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 133 0 0 0 57 47 41 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 56 0 0 0 255 255 255 255 7 0 1 0 0 0 0 0 data 7 0x10007 0x295a6 0x38 0x29041 0x70003 0x29041 0x18 oops 0
+ciMethodData java/lang/invoke/LambdaForm$MH linkToTargetMethod (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; 2 291770 orig 264 88 29 212 84 0 0 0 0 176 101 26 23 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 209 149 35 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 128 0 0 0 208 0 0 0 4 0 1 0 0 0 0 0 data 16 0x10004 0x0 0x2742840 0x16c2 0x0 0x0 0x5000b 0x45c03 0x2742840 0x16c0 0x0 0x0 0x3 0x1 0x2 0x2 oops 2 2 java/lang/invoke/DirectMethodHandle 8 java/lang/invoke/DirectMethodHandle
+ciMethodData java/lang/invoke/LambdaForm$DMH invokeStatic_L_L (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; 2 292832 orig 264 88 29 212 84 0 0 0 0 248 65 224 22 0 0 0 0 32 2 0 0 96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 1 0 0 209 182 35 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 160 0 0 0 240 0 0 0 10 0 1 0 0 0 0 0 data 20 0x1000a 0x47747 0x3 0x0 0x2742840 0x2742960 0x70004 0x0 0x0 0x0 0x0 0x0 0xa000a 0x4771d 0x5 0x0 0x2 0x1 0x2742960 0x2 oops 0
+ciMethodData com/google/common/collect/ImmutableList copyOf (Ljava/util/Collection;)Lcom/google/common/collect/ImmutableList; 2 7437 orig 264 88 29 212 84 0 0 0 0 168 80 244 22 0 0 0 0 224 2 0 0 64 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6 1 0 0 49 224 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 22 0 2 0 0 0 152 1 0 0 255 255 255 255 4 0 1 0 0 0 0 0 data 51 0x10004 0xffffffffffffe913 0x1ef96cb0 0xb 0x22db4930 0x16 0x40007 0x16ec 0x128 0x519 0x80004 0x0 0x1ef96d60 0x47d 0x22e26840 0x9c 0xb0005 0x0 0x1ef96d60 0x47d 0x22e26840 0x9c 0x100005 0x0 0x1ef96d60 0x519 0x0 0x0 0x130007 0x519 0x78 0x0 0x170005 0x0 0x0 0x0 0x0 0x0 0x1a0002 0x0 0x1d0003 0x0 0x18 0x230005 0x217 0x1ef96cb0 0x582 0x22db4930 0xf53 0x280002 0x16ec oops 9 2 java/util/Collections$EmptyList 4 java/util/ArrayList 12 com/google/common/collect/RegularImmutableList 14 com/google/common/collect/SingletonImmutableSet 18 com/google/common/collect/RegularImmutableList 20 com/google/common/collect/SingletonImmutableSet 24 com/google/common/collect/RegularImmutableList 45 java/util/Collections$EmptyList 47 java/util/ArrayList
+ciMethodData com/google/common/collect/ImmutableList construct ([Ljava/lang/Object;)Lcom/google/common/collect/ImmutableList; 2 56516 orig 264 88 29 212 84 0 0 0 0 224 84 244 22 0 0 0 0 104 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 62 1 0 0 49 220 6 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 12 0 2 0 0 0 32 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 4 0x10002 0xdb87 0x40002 0xdba0 oops 0
+ciMethodData com/google/common/collect/ObjectArrays checkElementsNotNull ([Ljava/lang/Object;)[Ljava/lang/Object; 2 63622 orig 264 88 29 212 84 0 0 0 0 208 87 253 22 0 0 0 0 88 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 62 1 0 0 65 186 7 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 7 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 3 0 0 0 0 0 data 2 0x30002 0xf74a oops 0
+ciMethodData java/util/ArrayList toArray ()[Ljava/lang/Object; 2 5390 orig 264 88 29 212 84 0 0 0 0 216 30 172 22 0 0 0 0 88 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 113 160 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 8 0 0 0 0 0 data 2 0x80002 0x140e oops 0
+ciMethodData com/google/common/collect/ImmutableSet of (Ljava/lang/Object;)Lcom/google/common/collect/ImmutableSet; 2 35775 orig 264 88 29 212 84 0 0 0 0 112 191 252 22 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 29 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 184 0 0 0 57 88 4 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 7 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 5 0 0 0 0 0 data 2 0x50002 0x8b07 oops 0
+ciMethod org/gradle/internal/fingerprint/impl/DefaultFileCollectionSnapshotter$SnapshottingVisitor <init> (Lorg/gradle/internal/fingerprint/impl/DefaultFileCollectionSnapshotter;)V 2049 1 18290 0 -1
+ciMethod org/gradle/internal/fingerprint/impl/DefaultFileCollectionSnapshotter$SnapshottingVisitor visitCollection (Lorg/gradle/api/internal/file/FileCollectionInternal$Source;Ljava/lang/Iterable;)V 3073 3769 5540 0 9216
+ciMethod org/gradle/internal/fingerprint/impl/DefaultFileCollectionSnapshotter$SnapshottingVisitor getRoots ()Ljava/util/List; 1025 1 128 0 0
+ciMethod org/gradle/internal/fingerprint/impl/DefaultFileCollectionSnapshotter$SnapshottingVisitor <init> (Lorg/gradle/internal/fingerprint/impl/DefaultFileCollectionSnapshotter;Lorg/gradle/internal/fingerprint/impl/DefaultFileCollectionSnapshotter$1;)V 2049 1 18292 0 -1
+ciMethod java/lang/invoke/MethodHandle invokeBasic (Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod com/sun/proxy/$Proxy47 afterTransformerInvocation (Lorg/gradle/api/Describable;Lorg/gradle/api/Describable;)V 4097 1 5648 0 1568
+ciMethod com/sun/proxy/$Proxy47 beforeTransformerInvocation (Lorg/gradle/api/Describable;Lorg/gradle/api/Describable;)V 4097 1 8699 0 0
+ciMethodData org/gradle/api/internal/file/AbstractFileCollection <init> ()V 2 35409 orig 264 88 29 212 84 0 0 0 0 240 49 58 30 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 137 74 4 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x894d oops 0
+ciMethodData org/gradle/api/internal/provider/AbstractMinimalProvider <init> ()V 2 28810 orig 264 88 29 212 84 0 0 0 0 64 223 58 30 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 81 124 3 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x6f8a oops 0
+ciMethod org/gradle/internal/Try <init> ()V 3065 1 27235 0 32
+ciMethod java/lang/reflect/WeakCache$LookupValue <init> (Ljava/lang/Object;)V 17 1 89 0 -1
+ciMethodData java/lang/reflect/Proxy getInvocationHandler (Ljava/lang/Object;)Ljava/lang/reflect/InvocationHandler; 1 38 orig 264 88 29 212 84 0 0 0 0 96 25 219 22 0 0 0 0 248 2 0 0 96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 41 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 176 1 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 54 0x10005 0x25 0x0 0x0 0x0 0x0 0x40002 0x25 0x70007 0x25 0x30 0x0 0x100002 0x0 0x150004 0x0 0x1d481c70 0xa 0x1d481d20 0x14 0x1e0002 0x25 0x210007 0x25 0x100 0x0 0x250005 0x0 0x0 0x0 0x0 0x0 0x290002 0x0 0x300005 0x0 0x0 0x0 0x0 0x0 0x340005 0x0 0x0 0x0 0x0 0x0 0x370002 0x0 0x3a0007 0x0 0x30 0x0 0x3e0002 0x0 oops 2 16 com/sun/proxy/$Proxy96 18 com/sun/proxy/$Proxy101
+ciMethodData org/gradle/internal/dispatch/ProxyDispatchAdapter$DispatchingInvocationHandler invoke (Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object; 2 12558 orig 264 88 29 212 84 0 0 0 0 64 102 229 22 0 0 0 0 248 5 0 0 96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 105 128 1 0 1 0 0 0 0 24 0 0 0 0 0 0 2 0 0 0 0 0 57 0 2 0 0 0 152 4 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 147 0x10005 0x85 0x267b330 0x2f85 0x0 0x0 0x60005 0x85 0x2679be0 0x2f86 0x0 0x0 0x9e007 0x2ffa 0x1e8 0xc 0x130007 0x0 0x80 0xc 0x180005 0x6 0x22d062a0 0x4 0x22d06350 0x2 0x1b0002 0xc 0x1e0007 0x0 0x30 0xc 0x220002 0xc 0x280002 0x0 0x310005 0x0 0x0 0x0 0x0 0x0 0x340007 0x0 0x30 0x0 0x380002 0x0 0x3e0004 0x0 0x0 0x0 0x0 0x0 0x4c0005 0x0 0x0 0x0 0x0 0x0 0x4f0007 0x0 0x58 0x0 0x5b0007 0x0 0x38 0x0 0x5f0003 0x0 0x18 0x630002 0x0 0x680005 0x82 0x267b330 0x2f6d 0x0 0x0 0x6d0005 0x82 0x2679be0 0x2f6e 0x0 0x0 0x700007 0x2ff0 0x60 0x0 0x770005 0x0 0x0 0x0 0x0 0x0 0x7a0002 0x0 0x7f0005 0x82 0x267b330 0x2f6d 0x0 0x0 0x840005 0x82 0x2679be0 0x2f6f 0x0 0x0 0x870007 0x2ff9 0xf0 0x0 0x8e0002 0x0 0x950005 0x0 0x0 0x0 0x0 0x0 0x980005 0x0 0x0 0x0 0x0 0x0 0x9d0005 0x0 0x0 0x0 0x0 0x0 0xa00005 0x0 0x0 0x0 0x0 0x0 0xae0002 0x2ff9 0xb10005 0x1a65 0x22d06400 0x1464 0x22d064b0 0x13c oops 10 2 java/lang/reflect/Method 8 java/lang/String 22 org/gradle/api/internal/project/ProjectFactory$1 24 org/gradle/configuration/internal/DefaultListenerBuildOperationDecorator$BuildOperationEmittingAction 75 java/lang/reflect/Method 81 java/lang/String 99 java/lang/reflect/Method 105 java/lang/String 143 org/gradle/internal/event/ListenerBroadcast 145 org/gradle/internal/event/AnonymousListenerBroadcast
+ciMethodData org/gradle/internal/dispatch/MethodInvocation <init> (Ljava/lang/reflect/Method;[Ljava/lang/Object;)V 2 12406 orig 264 88 29 212 84 0 0 0 0 240 193 13 23 0 0 0 0 120 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 253 0 0 0 201 123 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 72 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 9 0x10002 0x2f79 0xb0007 0x2f78 0x38 0x12 0x110003 0x12 0x18 oops 0
+ciMethodData org/gradle/api/internal/provider/AbstractProviderWithValue <init> ()V 2 13161 orig 264 88 29 212 84 0 0 0 0 72 245 59 30 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 73 147 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x326a oops 0
+ciMethodData org/gradle/api/internal/provider/Providers$FixedValueProvider <init> (Ljava/lang/Object;)V 2 13144 orig 264 88 29 212 84 0 0 0 0 168 236 59 30 0 0 0 0 56 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 193 146 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x3259 oops 0
+ciMethod org/gradle/api/internal/artifacts/transform/DefaultTransformationWorkspace getOutputDirectory ()Ljava/io/File; 1081 1 135 0 0
+ciMethod org/gradle/api/internal/artifacts/transform/DefaultTransformationWorkspace getResultsFile ()Ljava/io/File; 1033 1 129 0 0
+ciMethod org/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory$2 call (Lorg/gradle/internal/operations/BuildOperationContext;)Lorg/gradle/internal/Try; 4097 1 8704 0 0
+ciMethod org/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory$2 call (Lorg/gradle/internal/operations/BuildOperationContext;)Ljava/lang/Object; 4097 1 8704 0 -1
+ciMethod org/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory$2 lambda$call$2 (Ljava/lang/String;Lorg/gradle/api/internal/artifacts/transform/CachingTransformationWorkspaceProvider;Lorg/gradle/api/internal/artifacts/transform/TransformationWorkspaceProvider$TransformationWorkspace;Lorg/gradle/api/internal/artifacts/transform/Transformer;Ljava/io/File;Lorg/gradle/internal/snapshot/CompleteFileSystemLocationSnapshot;Lorg/gradle/api/internal/artifacts/transform/ArtifactTransformDependencies;Lorg/gradle/internal/fingerprint/CurrentFileCollectionFingerprint;Lorg/gradle/internal/fingerprint/FileCollectionFingerprinter;Lorg/gradle/internal/fingerprint/FileCollectionFingerprinter;)Lorg/gradle/internal/Try; 4097 1 8711 0 0
+ciMethod org/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory$2 lambda$call$0 (Lorg/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory$TransformerExecution;Lorg/gradle/internal/execution/ExecutionOutcome;)Lcom/google/common/collect/ImmutableList; 4089 1 5744 0 -1
+ciMethod org/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory$TransformerExecution <init> (Lorg/gradle/api/internal/artifacts/transform/Transformer;Lorg/gradle/api/internal/artifacts/transform/TransformationWorkspaceProvider$TransformationWorkspace;Ljava/lang/String;Ljava/io/File;Lorg/gradle/internal/snapshot/CompleteFileSystemLocationSnapshot;Lorg/gradle/api/internal/artifacts/transform/ArtifactTransformDependencies;Lorg/gradle/internal/fingerprint/CurrentFileCollectionFingerprint;Lcom/google/common/collect/ImmutableSortedMap;Lorg/gradle/internal/execution/history/ExecutionHistoryStore;Lorg/gradle/api/internal/file/FileCollectionFactory;Lorg/gradle/internal/fingerprint/FileCollectionSnapshotter;Lorg/gradle/internal/fingerprint/FileCollectionFingerprinter;Lorg/gradle/internal/fingerprint/FileCollectionFingerprinter;)V 3073 1 8580 0 704
+ciMethod org/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory$TransformerExecution loadResultsFile ()Lcom/google/common/collect/ImmutableList; 3105 2433 5739 0 -1
+ciMethod org/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory$TransformerExecution access$700 (Lorg/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory$TransformerExecution;)Lcom/google/common/collect/ImmutableList; 3081 1 5751 0 -1
+ciMethod org/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory$2$1 <init> (Lorg/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory$2;Lorg/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory$TransformerExecution;)V 3073 1 8707 0 0
+ciMethod org/gradle/internal/Try ofFailable (Ljava/util/concurrent/Callable;)Lorg/gradle/internal/Try; 3089 1 8569 0 0
+ciMethod org/gradle/internal/Try successful (Ljava/lang/Object;)Lorg/gradle/internal/Try; 3073 1 27181 0 0
+ciMethod org/gradle/internal/Try failure (Ljava/lang/Throwable;)Lorg/gradle/internal/Try; 0 0 6 0 0
+ciMethod org/gradle/internal/Try tryMap (Ljava/util/function/Function;)Lorg/gradle/internal/Try; 0 0 1 0 -1
+ciMethod org/gradle/internal/Try mapFailure (Ljava/util/function/Function;)Lorg/gradle/internal/Try; 0 0 1 0 -1
+ciMethod org/gradle/internal/Try <init> (Lorg/gradle/internal/Try$1;)V 3057 1 27225 0 32
+ciMethod org/gradle/internal/Try$Failure <init> (Ljava/lang/Throwable;)V 49 1 6 0 -1
+ciMethod org/gradle/internal/Try$Success <init> (Ljava/lang/Object;)V 3073 1 27170 0 0
+ciMethod org/gradle/internal/Try$Success tryMap (Ljava/util/function/Function;)Lorg/gradle/internal/Try; 3081 1 8583 0 0
+ciMethod org/gradle/internal/Try$Success mapFailure (Ljava/util/function/Function;)Lorg/gradle/internal/Try; 4097 1 1536 0 0
+ciMethod org/gradle/internal/Try$Success access$100 (Lorg/gradle/internal/Try$Success;)Ljava/lang/Object; 1033 1 129 0 0
+ciMethod org/gradle/internal/snapshot/CompositeFileSystemSnapshot <init> (Ljava/util/Collection;)V 2049 1 17801 0 0
+ciMethod org/gradle/internal/snapshot/CompositeFileSystemSnapshot of (Ljava/util/Collection;)Lorg/gradle/internal/snapshot/FileSystemSnapshot; 2049 1 17793 0 0
+ciMethod com/google/common/collect/ImmutableSortedMap$1 <init> (Ljava/util/Comparator;)V 1033 1 3519 0 -1
+ciMethod org/gradle/internal/execution/UnitOfWork getExecutionHistoryStore ()Ljava/util/Optional; 0 0 1 0 -1
+ciMethod org/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory$2$$Lambda$442 <init> (Lorg/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory$2;Ljava/lang/String;Lorg/gradle/api/internal/artifacts/transform/CachingTransformationWorkspaceProvider;Lorg/gradle/api/internal/artifacts/transform/TransformationWorkspaceProvider$TransformationWorkspace;Lorg/gradle/api/internal/artifacts/transform/Transformer;Ljava/io/File;Lorg/gradle/internal/snapshot/CompleteFileSystemLocationSnapshot;Lorg/gradle/api/internal/artifacts/transform/ArtifactTransformDependencies;Lorg/gradle/internal/fingerprint/CurrentFileCollectionFingerprint;Lorg/gradle/internal/fingerprint/FileCollectionFingerprinter;Lorg/gradle/internal/fingerprint/FileCollectionFingerprinter;)V 3105 1 8586 0 160
+ciMethod org/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory$2$$Lambda$442 get$Lambda (Lorg/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory$2;Ljava/lang/String;Lorg/gradle/api/internal/artifacts/transform/CachingTransformationWorkspaceProvider;Lorg/gradle/api/internal/artifacts/transform/TransformationWorkspaceProvider$TransformationWorkspace;Lorg/gradle/api/internal/artifacts/transform/Transformer;Ljava/io/File;Lorg/gradle/internal/snapshot/CompleteFileSystemLocationSnapshot;Lorg/gradle/api/internal/artifacts/transform/ArtifactTransformDependencies;Lorg/gradle/internal/fingerprint/CurrentFileCollectionFingerprint;Lorg/gradle/internal/fingerprint/FileCollectionFingerprinter;Lorg/gradle/internal/fingerprint/FileCollectionFingerprinter;)Ljava/util/function/Supplier; 3105 1 8703 0 0
+ciMethod org/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory$2$$Lambda$442 get ()Ljava/lang/Object; 4097 1 8705 0 0
+ciMethodData org/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory$2$$Lambda$442 get$Lambda (Lorg/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory$2;Ljava/lang/String;Lorg/gradle/api/internal/artifacts/transform/CachingTransformationWorkspaceProvider;Lorg/gradle/api/internal/artifacts/transform/TransformationWorkspaceProvider$TransformationWorkspace;Lorg/gradle/api/internal/artifacts/transform/Transformer;Ljava/io/File;Lorg/gradle/internal/snapshot/CompleteFileSystemLocationSnapshot;Lorg/gradle/api/internal/artifacts/transform/ArtifactTransformDependencies;Lorg/gradle/internal/fingerprint/CurrentFileCollectionFingerprint;Lorg/gradle/internal/fingerprint/FileCollectionFingerprinter;Lorg/gradle/internal/fingerprint/FileCollectionFingerprinter;)Ljava/util/function/Supplier; 2 8703 orig 264 88 29 212 84 0 0 0 0 72 161 119 36 0 0 0 0 128 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 132 1 0 0 217 3 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 22 0 0 0 0 0 data 2 0x160002 0x207b oops 0
+ciMethodData org/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory$2$$Lambda$442 <init> (Lorg/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory$2;Ljava/lang/String;Lorg/gradle/api/internal/artifacts/transform/CachingTransformationWorkspaceProvider;Lorg/gradle/api/internal/artifacts/transform/TransformationWorkspaceProvider$TransformationWorkspace;Lorg/gradle/api/internal/artifacts/transform/Transformer;Ljava/io/File;Lorg/gradle/internal/snapshot/CompleteFileSystemLocationSnapshot;Lorg/gradle/api/internal/artifacts/transform/ArtifactTransformDependencies;Lorg/gradle/internal/fingerprint/CurrentFileCollectionFingerprint;Lorg/gradle/internal/fingerprint/FileCollectionFingerprinter;Lorg/gradle/internal/fingerprint/FileCollectionFingerprinter;)V 2 8586 orig 264 88 29 212 84 0 0 0 0 160 160 119 36 0 0 0 0 136 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 132 1 0 0 49 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x2008 oops 0
+ciMethodData org/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory$2$$Lambda$442 get ()Ljava/lang/Object; 2 8705 orig 264 88 29 212 84 0 0 0 0 8 162 119 36 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 9 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 44 0 0 0 0 0 data 2 0x2c0002 0x2007 oops 0
+ciMethod java/lang/invoke/LambdaForm$MH linkToTargetMethod (Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; 4097 1 8704 0 -1
+ciMethod org/gradle/internal/execution/steps/LoadExecutionStateStep$1 <init> (Lorg/gradle/internal/execution/steps/LoadExecutionStateStep;Ljava/util/Optional;Lorg/gradle/internal/execution/ExecutionRequestContext;Lorg/gradle/internal/execution/UnitOfWork;)V 2049 1 5665 0 -1
+ciMethodData com/google/common/collect/Ordering natural ()Lcom/google/common/collect/Ordering; 2 285004 orig 264 88 29 212 84 0 0 0 0 248 227 92 31 0 0 0 0 24 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 97 194 34 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethod org/gradle/internal/execution/steps/SkipUpToDateStep$1 getOutcome ()Lorg/gradle/internal/Try; 3081 1 7553 0 160
+ciMethod org/gradle/internal/execution/steps/ResolveCachingStateStep$2 getOutcome ()Lorg/gradle/internal/Try; 4097 1 8704 0 192
+ciMethod org/gradle/internal/Try$Success$1 <init> (Lorg/gradle/internal/Try$Success;Ljava/util/function/Function;)V 3073 1 8553 0 0
+ciMethod org/gradle/internal/Try$Success$1 call ()Ljava/lang/Object; 3097 1 8578 0 0
+ciMethod org/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory$2$$Lambda$505 <init> (Lorg/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory$TransformerExecution;)V 4089 1 8567 0 0
+ciMethod org/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory$2$$Lambda$505 get$Lambda (Lorg/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory$TransformerExecution;)Ljava/util/function/Function; 4097 1 8588 0 0
+ciMethod org/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory$2$$Lambda$505 apply (Ljava/lang/Object;)Ljava/lang/Object; 4097 1 5711 0 6880
+ciMethodData org/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory$2$$Lambda$505 apply (Ljava/lang/Object;)Ljava/lang/Object; 2 5711 orig 264 88 29 212 84 0 0 0 0 112 19 127 36 0 0 0 0 144 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 121 162 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 64 0 0 0 255 255 255 255 4 0 5 0 0 0 0 0 data 8 0x50004 0x0 0x228dd510 0x1471 0x0 0x0 0x80002 0x1473 oops 1 2 org/gradle/internal/execution/ExecutionOutcome
+ciMethodData org/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory$2$$Lambda$505 get$Lambda (Lorg/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory$TransformerExecution;)Ljava/util/function/Function; 2 8588 orig 264 88 29 212 84 0 0 0 0 208 18 127 36 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 97 252 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 5 0 0 0 0 0 data 2 0x50002 0x1f7a oops 0
+ciMethodData org/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory$2$$Lambda$505 <init> (Lorg/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory$TransformerExecution;)V 2 8567 orig 264 88 29 212 84 0 0 0 0 56 18 127 36 0 0 0 0 56 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 1 0 0 193 251 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x1f7a oops 0
+ciMethod org/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory$2$$Lambda$509 <init> (Lorg/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory$TransformerExecution;)V 4097 1 8642 0 0
+ciMethod org/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory$2$$Lambda$509 get$Lambda (Lorg/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory$TransformerExecution;)Ljava/util/function/Function; 4097 1 8639 0 0
+ciMethodData org/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory$2$$Lambda$509 <init> (Lorg/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory$TransformerExecution;)V 2 8643 orig 264 88 29 212 84 0 0 0 0 56 98 127 36 0 0 0 0 56 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 25 254 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x1fc3 oops 0
+ciMethodData org/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory$2$$Lambda$509 get$Lambda (Lorg/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory$TransformerExecution;)Ljava/util/function/Function; 2 8640 orig 264 88 29 212 84 0 0 0 0 208 98 127 36 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 1 254 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 5 0 0 0 0 0 data 2 0x50002 0x1fc3 oops 0
+ciMethodData org/gradle/internal/Try successful (Ljava/lang/Object;)Lorg/gradle/internal/Try; 2 27181 orig 264 88 29 212 84 0 0 0 0 136 144 117 36 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 1 0 0 105 69 3 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 5 0 0 0 0 0 data 2 0x50002 0x689f oops 0
+ciMethodData org/gradle/internal/Try$Success <init> (Ljava/lang/Object;)V 2 27171 orig 264 88 29 212 84 0 0 0 0 16 172 117 36 0 0 0 0 56 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 1 0 0 25 69 3 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 16 0 0 0 255 255 255 255 2 0 2 0 0 0 0 0 data 2 0x20002 0x68bd oops 0
+ciMethodData org/gradle/internal/Try <init> (Lorg/gradle/internal/Try$1;)V 2 27226 orig 264 88 29 212 84 0 0 0 0 120 151 117 36 0 0 0 0 56 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 126 1 0 0 225 70 3 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x68f1 oops 0
+ciMethodData org/gradle/internal/Try <init> ()V 2 27266 orig 264 88 29 212 84 0 0 0 0 232 110 213 35 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 1 0 0 25 72 3 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x6903 oops 0
+ciMethodData com/google/common/collect/ImmutableSet copyOf ([Ljava/lang/Object;)Lcom/google/common/collect/ImmutableSet; 2 6717 orig 264 88 29 212 84 0 0 0 0 168 204 252 22 0 0 0 0 24 2 0 0 80 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 233 201 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 11 0 2 0 0 0 208 0 0 0 255 255 255 255 8 0 2 0 0 0 0 0 data 26 0x20008 0x6 0x0 0x60 0x0 0x40 0x0 0x50 0x1c0002 0x34 0x230002 0x18f5 0x2a0005 0x0 0x22e256e0 0x14 0x0 0x0 0x2d0004 0x0 0x22e256e0 0x14 0x0 0x0 0x300002 0x14 oops 2 14 [Ljava/net/URL; 20 [Ljava/net/URL;
+ciMethodData org/gradle/internal/time/DefaultTimer reset ()V 2 15394 orig 264 88 29 212 84 0 0 0 0 16 96 25 23 0 0 0 0 120 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 17 217 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 48 0 0 0 255 255 255 255 5 0 5 0 0 0 0 0 data 6 0x50005 0x0 0x2269c7c0 0x3b22 0x0 0x0 oops 1 2 org/gradle/internal/time/TimeSource$1
+ciMethodData org/gradle/api/internal/file/DefaultFileCollectionFactory$FixedFileCollection <init> (Ljava/lang/String;Lcom/google/common/collect/ImmutableSet;)V 2 17420 orig 264 88 29 212 84 0 0 0 0 104 95 84 31 0 0 0 0 64 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 97 24 2 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x430f oops 0
+ciMethodData org/gradle/internal/fingerprint/impl/DefaultFileCollectionSnapshotter snapshot (Lorg/gradle/api/file/FileCollection;)Ljava/util/List; 2 18283 orig 264 88 29 212 84 0 0 0 0 72 78 41 30 0 0 0 0 240 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 89 51 2 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 160 0 0 0 255 255 255 255 2 0 6 0 0 0 0 0 data 20 0x60002 0x4672 0xb0004 0x0 0x22e22e00 0x40a 0x22de44d0 0x177 0xf0005 0x1e9 0x22e22e00 0x430d 0x22de44d0 0x177 0x150005 0x0 0x22de08e0 0x467c 0x0 0x0 oops 5 4 org/gradle/api/internal/file/DefaultFileCollectionFactory$FixedFileCollection 6 org/gradle/api/internal/file/DefaultFileCollectionFactory$ResolvingFileCollection 10 org/gradle/api/internal/file/DefaultFileCollectionFactory$FixedFileCollection 12 org/gradle/api/internal/file/DefaultFileCollectionFactory$ResolvingFileCollection 16 org/gradle/internal/fingerprint/impl/DefaultFileCollectionSnapshotter$SnapshottingVisitor
+ciMethodData org/gradle/internal/fingerprint/impl/DefaultFileCollectionSnapshotter$SnapshottingVisitor <init> (Lorg/gradle/internal/fingerprint/impl/DefaultFileCollectionSnapshotter;Lorg/gradle/internal/fingerprint/impl/DefaultFileCollectionSnapshotter$1;)V 2 18375 orig 264 88 29 212 84 0 0 0 0 0 179 131 33 0 0 0 0 64 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 57 54 2 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 16 0 0 0 255 255 255 255 2 0 2 0 0 0 0 0 data 2 0x20002 0x46c7 oops 0
+ciMethodData org/gradle/internal/fingerprint/impl/DefaultFileCollectionSnapshotter$SnapshottingVisitor <init> (Lorg/gradle/internal/fingerprint/impl/DefaultFileCollectionSnapshotter;)V 2 18373 orig 264 88 29 212 84 0 0 0 0 32 173 131 33 0 0 0 0 72 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 41 54 2 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 32 0 0 0 255 255 255 255 2 0 6 0 0 0 0 0 data 4 0x60002 0x46c8 0xe0002 0x46c8 oops 0
+ciMethodData org/gradle/api/internal/file/DefaultFileCollectionFactory fixed ([Ljava/io/File;)Lorg/gradle/api/internal/file/FileCollectionInternal; 2 17410 orig 264 88 29 212 84 0 0 0 0 56 146 42 30 0 0 0 0 208 1 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 9 24 2 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 8 0 2 0 0 0 128 0 0 0 255 255 255 255 7 0 2 0 0 0 0 0 data 16 0x20007 0x4309 0x50 0x0 0x60005 0x0 0x0 0x0 0x0 0x0 0xe0005 0x0 0x22b07f40 0x4309 0x0 0x0 oops 1 12 org/gradle/api/internal/file/DefaultFileCollectionFactory
+ciMethodData org/gradle/api/internal/file/DefaultFileCollectionFactory fixed (Ljava/lang/String;[Ljava/io/File;)Lorg/gradle/api/internal/file/FileCollectionInternal; 2 17420 orig 264 88 29 212 84 0 0 0 0 32 147 42 30 0 0 0 0 168 1 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 89 24 2 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 5 0 2 0 0 0 80 0 0 0 255 255 255 255 7 0 2 0 0 0 0 0 data 10 0x20007 0x430b 0x30 0x0 0xa0002 0x0 0x140002 0x4307 0x170002 0x4305 oops 0
+ciMethodData org/gradle/internal/snapshot/CompositeFileSystemSnapshot of (Ljava/util/Collection;)Lorg/gradle/internal/snapshot/FileSystemSnapshot; 2 17801 orig 264 88 29 212 84 0 0 0 0 144 22 118 36 0 0 0 0 168 1 0 0 48 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 73 36 2 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 5 0 2 0 0 0 96 0 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 12 0x10005 0x0 0x22db4930 0x4489 0x0 0x0 0x60007 0x4489 0x20 0x0 0x120002 0x4489 oops 1 2 java/util/ArrayList
+ciMethodData org/gradle/internal/snapshot/CompositeFileSystemSnapshot <init> (Ljava/util/Collection;)V 2 17803 orig 264 88 29 212 84 0 0 0 0 216 21 118 36 0 0 0 0 112 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 89 36 2 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 32 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 4 0x10002 0x448b 0x60002 0x448b oops 0
+ciMethodData com/google/common/collect/ImmutableSortedMap fromEntries (Ljava/util/Comparator;Z[Ljava/util/Map$Entry;I)Lcom/google/common/collect/ImmutableSortedMap; 2 10770 orig 264 88 29 212 84 0 0 0 0 160 2 82 31 0 0 0 0 16 6 0 0 224 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 1 0 0 177 227 0 0 145 68 1 0 0 0 0 0 0 0 0 0 2 0 0 0 2 0 59 0 2 0 0 0 176 4 0 0 255 255 255 255 8 0 1 0 0 0 0 0 data 150 0x10008 0x6 0x3 0xc0 0x0 0x40 0x0 0x50 0x1d0002 0x0 0x250005 0x0 0x1d480760 0x1e 0x1ef9a120 0x1b3 0x2d0005 0x0 0x1d480760 0x1e 0x1ef9a120 0x1b4 0x320002 0x1d1 0x430007 0xd3e 0x140 0xd64 0x4c0007 0xd72 0x108 0x1b4b 0x530005 0x0 0x1d480760 0x1b1c 0x1ef9a120 0x38 0x5e0005 0x0 0x1d480760 0x1afb 0x1ef9a120 0x38 0x690002 0x1b5b 0x720004 0x0 0x2679be0 0x1b60 0x0 0x0 0x790004 0x0 0x1d480810 0x1ae8 0x1d4808c0 0x57 0x7d0003 0x1b60 0xffffffffffffff10 0x800003 0xd74 0x288 0x8b0002 0xd3e 0x8e0002 0xd3e 0x940005 0x0 0x1ef9a120 0xd3d 0x0 0x0 0xa00004 0x0 0x2679be0 0xd3e 0x0 0x0 0xa70005 0x0 0x1ef9a120 0xd3e 0x0 0x0 0xac0004 0x0 0x22b06440 0xd3c 0x0 0x0 0xb50002 0xd3c 0xbe0007 0xd3b 0x180 0xd3d 0xc50005 0x0 0x1ef9a120 0xd3d 0x0 0x0 0xd00005 0x0 0x1ef9a120 0xd3d 0x0 0x0 0xdb0002 0xd3d 0xe40004 0x0 0x2679be0 0xd3d 0x0 0x0 0xeb0004 0x0 0x22b06440 0xd3d 0x0 0x0 0xf10005 0x0 0x224ddd30 0xd3d 0x0 0x0 0xf60007 0x0 0x38 0xd3c 0xfa0003 0xd3d 0x18 0x10a0002 0xd3d 0x1140003 0xd3b 0xfffffffffffffe98 0x1210002 0x1a99 0x1250002 0x1aa4 0x12a0002 0x1aa7 0x12d0002 0x1a9c oops 20 12 com/google/common/collect/Maps$12 14 java/util/AbstractMap$SimpleImmutableEntry 18 com/google/common/collect/Maps$12 20 java/util/AbstractMap$SimpleImmutableEntry 34 com/google/common/collect/Maps$12 36 java/util/AbstractMap$SimpleImmutableEntry 40 com/google/common/collect/Maps$12 42 java/util/AbstractMap$SimpleImmutableEntry 48 java/lang/String 54 org/gradle/internal/fingerprint/impl/DefaultCurrentFileCollectionFingerprint 56 org/gradle/internal/execution/history/impl/SerializableFileCollectionFingerprint 70 java/util/AbstractMap$SimpleImmutableEntry 76 java/lang/String 82 java/util/AbstractMap$SimpleImmutableEntry 88 org/gradle/internal/snapshot/CompositeFileSystemSnapshot 100 java/util/AbstractMap$SimpleImmutableEntry 106 java/util/AbstractMap$SimpleImmutableEntry 114 java/lang/String 120 org/gradle/internal/snapshot/CompositeFileSystemSnapshot 126 com/google/common/collect/NaturalOrdering
+ciMethodData org/gradle/api/internal/file/DefaultFileSystemLocation <init> (Ljava/io/File;)V 2 9904 orig 264 88 29 212 84 0 0 0 0 224 106 58 30 0 0 0 0 56 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 129 45 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x25b2 oops 0
+ciMethodData org/gradle/internal/time/DefaultTimer <init> (Lorg/gradle/internal/time/TimeSource;)V 2 9900 orig 264 88 29 212 84 0 0 0 0 208 93 25 23 0 0 0 0 144 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 97 45 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 64 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 8 0x10002 0x25ad 0xa0005 0x0 0x2269c4a0 0x22e7 0x2269dc20 0x2c8 oops 2 4 org/gradle/internal/time/DefaultTimer 6 org/gradle/internal/time/DefaultCountdownTimer
+ciMethodData org/gradle/api/internal/file/AbstractFileCollection visitStructure (Lorg/gradle/api/internal/file/FileCollectionStructureVisitor;)V 2 18035 orig 264 88 29 212 84 0 0 0 0 120 66 58 30 0 0 0 0 208 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 1 0 0 153 39 2 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 128 0 0 0 255 255 255 255 5 0 4 0 0 0 0 0 data 16 0x40005 0x0 0x22de08e0 0x44f4 0x0 0x0 0xc0007 0x0 0x50 0x44fe 0x140005 0x0 0x22de08e0 0x44fd 0x0 0x0 oops 2 2 org/gradle/internal/fingerprint/impl/DefaultFileCollectionSnapshotter$SnapshottingVisitor 12 org/gradle/internal/fingerprint/impl/DefaultFileCollectionSnapshotter$SnapshottingVisitor
+ciMethodData org/gradle/internal/fingerprint/impl/DefaultFileCollectionSnapshotter$SnapshottingVisitor visitCollection (Lorg/gradle/api/internal/file/FileCollectionInternal$Source;Ljava/lang/Iterable;)V 2 5540 orig 264 88 29 212 84 0 0 0 0 40 174 131 33 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 215 1 0 0 33 161 0 0 145 146 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 9 0 2 0 0 0 168 1 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 53 0x10005 0x9cb 0x22e22e00 0x9f8 0x27d21d00 0x61 0x80005 0x5d 0x27d21db0 0x14b0 0x27d23e60 0x1167 0xd0007 0x1424 0x148 0x1250 0x110005 0x5a 0x27d21db0 0xa58 0x27d23e60 0x79e 0x160004 0x0 0x2743610 0x1250 0x0 0x0 0x1f0002 0x1250 0x240005 0x0 0x2743610 0x124f 0x0 0x0 0x2c0002 0x1250 0x30000a 0x1250 0x3 0x0 0x22db4930 0x27d23f40 0x350005 0x0 0x27d23ff0 0x11f6 0x27d240a0 0x5a 0x3b0003 0x1250 0xfffffffffffffea0 oops 10 2 org/gradle/api/internal/file/DefaultFileCollectionFactory$FixedFileCollection 4 org/gradle/api/internal/file/collections/FileCollectionAdapter 8 com/google/common/collect/Iterators$9 10 java/util/LinkedHashMap$LinkedKeyIterator 18 com/google/common/collect/Iterators$9 20 java/util/LinkedHashMap$LinkedKeyIterator 24 java/io/File 32 java/io/File 46 org/gradle/internal/vfs/RoutingVirtualFileSystem 48 org/gradle/internal/vfs/impl/DefaultWatchingVirtualFileSystem
+ciMethodData org/gradle/api/internal/file/FileCollectionStructureVisitor prepareForVisit (Lorg/gradle/api/internal/file/FileCollectionInternal$Source;)Lorg/gradle/api/internal/file/FileCollectionStructureVisitor$VisitType; 2 17414 orig 264 88 29 212 84 0 0 0 0 32 213 29 23 0 0 0 0 40 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 1 0 0 41 20 2 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData com/google/common/collect/ImmutableMap entryOf (Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map$Entry; 2 17438 orig 264 88 29 212 84 0 0 0 0 136 244 106 28 0 0 0 0 112 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 1 0 0 241 20 2 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 32 0 0 0 255 255 255 255 2 0 2 0 0 0 0 0 data 4 0x20002 0x429e 0xb0002 0x429e oops 0
+ciMethodData org/gradle/api/internal/provider/Providers of (Ljava/lang/Object;)Lorg/gradle/api/internal/provider/ProviderInternal; 2 8951 orig 264 88 29 212 84 0 0 0 0 104 128 68 33 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 185 15 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 5 0 0 0 0 0 data 2 0x50002 0x21f5 oops 0
+ciMethodData com/google/common/collect/ImmutableSortedMap of (Ljava/lang/Comparable;Ljava/lang/Object;Ljava/lang/Comparable;Ljava/lang/Object;)Lcom/google/common/collect/ImmutableSortedMap; 2 8707 orig 264 88 29 212 84 0 0 0 0 216 245 81 31 0 0 0 0 240 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 25 8 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 144 0 0 0 255 255 255 255 2 0 8 0 0 0 0 0 data 18 0x80002 0x210f 0xb0004 0x0 0x1ef9a120 0x210f 0x0 0x0 0x100002 0x210f 0x130004 0x0 0x1ef9a120 0x210f 0x0 0x0 0x140002 0x210f oops 2 4 java/util/AbstractMap$SimpleImmutableEntry 12 java/util/AbstractMap$SimpleImmutableEntry
+ciMethodData com/google/common/collect/ImmutableSortedMap ofEntries ([Ljava/util/Map$Entry;)Lcom/google/common/collect/ImmutableSortedMap; 2 8719 orig 264 88 29 212 84 0 0 0 0 232 249 81 31 0 0 0 0 104 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 121 8 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 32 0 0 0 255 255 255 255 2 0 0 0 0 0 0 0 data 4 0x2 0x210f 0x70002 0x210f oops 0
+ciMethodData org/gradle/internal/execution/steps/LoadExecutionStateStep$1 <init> (Lorg/gradle/internal/execution/steps/LoadExecutionStateStep;Ljava/util/Optional;Lorg/gradle/internal/execution/ExecutionRequestContext;Lorg/gradle/internal/execution/UnitOfWork;)V 2 5665 orig 264 88 29 212 84 0 0 0 0 216 105 120 36 0 0 0 0 80 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 9 169 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 22 0 0 0 0 0 data 2 0x160002 0x1521 oops 0
+ciMethodData org/gradle/internal/time/Time startTimer ()Lorg/gradle/internal/time/Timer; 2 9059 orig 264 88 29 212 84 0 0 0 0 144 186 227 22 0 0 0 0 40 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 1 0 0 25 15 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 7 0 0 0 0 0 data 2 0x70002 0x21e3 oops 0
+ciMethodData org/gradle/internal/execution/impl/DefaultWorkExecutor execute (Lorg/gradle/internal/execution/Context;)Lorg/gradle/internal/execution/Result; 2 8898 orig 264 88 29 212 84 0 0 0 0 208 135 80 31 0 0 0 0 128 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 1 0 0 17 10 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 48 0 0 0 255 255 255 255 5 0 5 0 0 0 0 0 data 6 0x50005 0x0 0x1faa5480 0x2141 0x0 0x0 oops 1 2 org/gradle/internal/execution/steps/LoadExecutionStateStep
+ciMethod org/gradle/api/internal/file/DefaultFileCollectionFactory$EmptyFileCollection <init> (Ljava/lang/String;)V 65 1 347 0 -1
+ciMethodData java/lang/invoke/LambdaForm$DMH invokeStatic_L11_L (Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; 2 8712 orig 264 88 29 212 84 0 0 0 0 16 22 225 22 0 0 0 0 112 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 1 0 0 65 4 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 160 0 0 0 64 1 0 0 10 0 1 0 0 0 0 0 data 20 0x1000a 0x2088 0x3 0x0 0x2742840 0x2742960 0x1b0004 0x0 0x0 0x0 0x0 0x0 0x1e000a 0x2088 0x5 0x0 0x2 0x1 0x2 0x2 oops 0
+ciMethodData org/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory$TransformerExecution <init> (Lorg/gradle/api/internal/artifacts/transform/Transformer;Lorg/gradle/api/internal/artifacts/transform/TransformationWorkspaceProvider$TransformationWorkspace;Ljava/lang/String;Ljava/io/File;Lorg/gradle/internal/snapshot/CompleteFileSystemLocationSnapshot;Lorg/gradle/api/internal/artifacts/transform/ArtifactTransformDependencies;Lorg/gradle/internal/fingerprint/CurrentFileCollectionFingerprint;Lcom/google/common/collect/ImmutableSortedMap;Lorg/gradle/internal/execution/history/ExecutionHistoryStore;Lorg/gradle/api/internal/file/FileCollectionFactory;Lorg/gradle/internal/fingerprint/FileCollectionSnapshotter;Lorg/gradle/internal/fingerprint/FileCollectionFingerprinter;Lorg/gradle/internal/fingerprint/FileCollectionFingerprinter;)V 2 8580 orig 264 88 29 212 84 0 0 0 0 64 5 117 36 0 0 0 0 240 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 1 0 0 33 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 64 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 8 0x10002 0x2005 0x500002 0x2005 0x5d0002 0x2003 0x600002 0x2008 oops 0
+ciMethodData org/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory$2$1 <init> (Lorg/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory$2;Lorg/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory$TransformerExecution;)V 2 8721 orig 264 88 29 212 84 0 0 0 0 40 46 117 36 0 0 0 0 64 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 1 0 0 137 4 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 11 0 0 0 0 0 data 2 0xb0002 0x2090 oops 0
+ciMethodData org/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory$TransformerExecution access$700 (Lorg/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory$TransformerExecution;)Lcom/google/common/collect/ImmutableList; 2 5751 orig 264 88 29 212 84 0 0 0 0 96 29 117 36 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 1 0 0 177 167 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x14f3 oops 0
+ciMethodData org/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory$TransformerExecution loadResultsFile ()Lcom/google/common/collect/ImmutableList; 2 5739 orig 264 88 29 212 84 0 0 0 0 96 9 117 36 0 0 0 0 144 5 0 0 128 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 132 1 0 0 57 167 0 0 241 118 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 17 0 2 0 0 0 72 4 0 0 255 255 255 255 5 0 4 0 0 0 0 0 data 137 0x40005 0x0 0x22b07e90 0x150e 0x0 0x0 0x90005 0x0 0x2743610 0x153a 0x0 0x0 0xd0002 0x14ec 0x150002 0x1504 0x1a0005 0x0 0x22db4930 0x1532 0x0 0x0 0x230005 0x0 0x1d483610 0x2412 0x0 0x0 0x280007 0x1539 0x328 0xee2 0x2d0005 0x0 0x1d483610 0xeee 0x0 0x0 0x320004 0x0 0x2679be0 0xefe 0x0 0x0 0x3b0005 0x3e 0x2679be0 0xebe 0x0 0x0 0x3e0007 0x4cf 0xd8 0xa2f 0x4a0005 0x0 0x22b07e90 0xa2d 0x0 0x0 0x520005 0x3e 0x2679be0 0x9f2 0x0 0x0 0x550002 0xa31 0x580005 0x3e 0x1d4836c0 0x9f4 0x0 0x0 0x5c0003 0xa20 0x1a0 0x630005 0x0 0x2679be0 0x4ca 0x0 0x0 0x660007 0x0 0xa8 0x4c9 0x750005 0x0 0x2679be0 0x4cf 0x0 0x0 0x780002 0x4c9 0x7b0005 0x0 0x1d4836c0 0x4ce 0x0 0x0 0x7f0003 0x4c4 0xc8 0x8a0002 0x0 0x8f0005 0x0 0x0 0x0 0x0 0x0 0x940005 0x0 0x0 0x0 0x0 0x0 0x970005 0x0 0x0 0x0 0x0 0x0 0x9a0002 0x0 0x9e0003 0xedd 0xfffffffffffffcc0 0xa20005 0x82 0x1d4836c0 0x14ae 0x0 0x0 0xac0002 0x0 oops 14 2 org/gradle/api/internal/artifacts/transform/DefaultTransformationWorkspace 8 java/io/File 18 java/util/ArrayList 24 java/util/ArrayList$Itr 34 java/util/ArrayList$Itr 40 java/lang/String 46 java/lang/String 56 org/gradle/api/internal/artifacts/transform/DefaultTransformationWorkspace 62 java/lang/String 70 com/google/common/collect/ImmutableList$Builder 79 java/lang/String 89 java/lang/String 97 com/google/common/collect/ImmutableList$Builder 131 com/google/common/collect/ImmutableList$Builder
+ciMethodData org/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory$2 call (Lorg/gradle/internal/operations/BuildOperationContext;)Ljava/lang/Object; 2 8704 orig 264 88 29 212 84 0 0 0 0 192 222 116 36 0 0 0 0 128 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 1 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 48 0 0 0 255 255 255 255 5 0 2 0 0 0 0 0 data 6 0x20005 0x0 0x22dffe80 0x2000 0x0 0x0 oops 1 2 org/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory$2
+ciMethodData org/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory$2 call (Lorg/gradle/internal/operations/BuildOperationContext;)Lorg/gradle/internal/Try; 2 8704 orig 264 88 29 212 84 0 0 0 0 56 221 116 36 0 0 0 0 160 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 1 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 80 0 0 0 255 255 255 255 10 0 53 0 0 0 0 0 data 10 0x35000a 0x2000 0x5 0x0 0x22dffe80 0x1 0x2679be0 0x22e05890 0x3a0002 0x1fff oops 0
+ciMethodData org/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory access$300 (Lorg/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory;Lorg/gradle/api/internal/artifacts/transform/Transformer;Lorg/gradle/api/internal/artifacts/transform/TransformationSubject;Ljava/util/function/Supplier;)Lorg/gradle/internal/Try; 2 8703 orig 264 88 29 212 84 0 0 0 0 184 86 78 31 0 0 0 0 72 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 249 255 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 4 0 0 0 0 0 data 2 0x40002 0x2001 oops 0
+ciMethodData org/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory fireTransformListeners (Lorg/gradle/api/internal/artifacts/transform/Transformer;Lorg/gradle/api/internal/artifacts/transform/TransformationSubject;Ljava/util/function/Supplier;)Lorg/gradle/internal/Try; 2 8702 orig 264 88 29 212 84 0 0 0 0 248 80 78 31 0 0 0 0 80 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 241 255 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 7 0 2 0 0 0 240 0 0 0 255 255 255 255 5 0 6 0 0 0 0 0 data 30 0x60005 0x0 0x1b8104c0 0x1ffe 0x0 0x0 0xc0005 0x0 0x22e05890 0x2002 0x0 0x0 0x110004 0x0 0x1b810570 0x1fa6 0x0 0x0 0x1c0005 0x0 0x1b8104c0 0x1fb3 0x0 0x0 0x2c0005 0x0 0x0 0x0 0x0 0x0 oops 4 2 com/sun/proxy/$Proxy47 8 org/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory$2$$Lambda$442 14 org/gradle/internal/Try$Success 20 com/sun/proxy/$Proxy47
+ciMethodData org/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory$2 lambda$call$2 (Ljava/lang/String;Lorg/gradle/api/internal/artifacts/transform/CachingTransformationWorkspaceProvider;Lorg/gradle/api/internal/artifacts/transform/TransformationWorkspaceProvider$TransformationWorkspace;Lorg/gradle/api/internal/artifacts/transform/Transformer;Ljava/io/File;Lorg/gradle/internal/snapshot/CompleteFileSystemLocationSnapshot;Lorg/gradle/api/internal/artifacts/transform/ArtifactTransformDependencies;Lorg/gradle/internal/fingerprint/CurrentFileCollectionFingerprint;Lorg/gradle/internal/fingerprint/FileCollectionFingerprinter;Lorg/gradle/internal/fingerprint/FileCollectionFingerprinter;)Lorg/gradle/internal/Try; 2 8711 orig 264 88 29 212 84 0 0 0 0 184 224 116 36 0 0 0 0 56 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 57 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 160 2 0 0 255 255 255 255 2 0 4 0 0 0 0 0 data 84 0x40002 0x2006 0x90005 0x81 0x27433b0 0x1f85 0x0 0x0 0xd0005 0x81 0x27433b0 0x1f84 0x0 0x0 0x100005 0x81 0x27433b0 0x1f85 0x0 0x0 0x160005 0x0 0x22cda8b0 0x2002 0x0 0x0 0x210002 0x2001 0x280002 0x2002 0x2c0002 0x2003 0x4a0002 0x2006 0x510002 0x2007 0x580002 0x2007 0x610002 0x2004 0x6b0002 0x2003 0x6e0005 0x0 0x22cda960 0x2004 0x0 0x0 0x730004 0x0 0x22cdaa10 0x1f8a 0x0 0x0 0x7a0005 0x0 0x22cdaa10 0x1f8c 0x0 0x0 0x81000a 0x1f89 0x3 0x0 0x22cd8dc0 0x22cdaaf0 0x860005 0x0 0x1b810570 0x1f82 0x0 0x0 0x8b000a 0x1fd2 0x3 0x0 0x22cd8dc0 0x22cdabd0 0x900005 0x0 0x1b810570 0x1fc1 0x0 0x0 oops 9 4 java/lang/StringBuilder 10 java/lang/StringBuilder 16 java/lang/StringBuilder 22 org/gradle/api/internal/artifacts/transform/ImmutableCachingTransformationWorkspaceProvider 44 org/gradle/internal/execution/impl/DefaultWorkExecutor 50 org/gradle/internal/execution/steps/ResolveCachingStateStep$2 56 org/gradle/internal/execution/steps/ResolveCachingStateStep$2 68 org/gradle/internal/Try$Success 80 org/gradle/internal/Try$Success
+ciMethodData org/gradle/api/internal/artifacts/transform/AbstractCachingTransformationWorkspaceProvider getExecutionHistoryStore ()Lorg/gradle/internal/execution/history/ExecutionHistoryStore; 2 8705 orig 264 88 29 212 84 0 0 0 0 192 57 114 28 0 0 0 0 120 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 9 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 48 0 0 0 255 255 255 255 5 0 4 0 0 0 0 0 data 6 0x40005 0x0 0x22b01df0 0x2000 0x0 0x0 oops 1 2 org/gradle/api/internal/artifacts/transform/ImmutableTransformationWorkspaceProvider
+ciMethodData org/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory access$200 (Lorg/gradle/internal/fingerprint/FileCollectionSnapshotter;Lorg/gradle/api/internal/file/FileCollectionFactory;Lorg/gradle/api/internal/artifacts/transform/TransformationWorkspaceProvider$TransformationWorkspace;)Lcom/google/common/collect/ImmutableSortedMap; 2 8705 orig 264 88 29 212 84 0 0 0 0 240 85 78 31 0 0 0 0 104 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 9 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 3 0 0 0 0 0 data 2 0x30002 0x2003 oops 0
+ciMethodData org/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory snapshotOutputs (Lorg/gradle/internal/fingerprint/FileCollectionSnapshotter;Lorg/gradle/api/internal/file/FileCollectionFactory;Lorg/gradle/api/internal/artifacts/transform/TransformationWorkspaceProvider$TransformationWorkspace;)Lcom/google/common/collect/ImmutableSortedMap; 2 8697 orig 264 88 29 212 84 0 0 0 0 48 82 78 31 0 0 0 0 8 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 201 255 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 25 0 2 0 0 0 176 1 0 0 255 255 255 255 5 0 9 0 0 0 0 0 data 54 0x90005 0x0 0x22b07e90 0x1ff7 0x0 0x0 0xe0004 0x0 0x2743610 0x1ffb 0x0 0x0 0xf0005 0x0 0x22b07f40 0x1ff7 0x0 0x0 0x140005 0x0 0x22b07ff0 0x1ff1 0x0 0x0 0x230005 0x0 0x22b07e90 0x2009 0x0 0x0 0x280004 0x0 0x2743610 0x2009 0x0 0x0 0x290005 0x0 0x22b07f40 0x2009 0x0 0x0 0x2e0005 0x0 0x22b07ff0 0x2009 0x0 0x0 0x380002 0x2008 0x3f0002 0x2008 0x420002 0x2008 oops 8 2 org/gradle/api/internal/artifacts/transform/DefaultTransformationWorkspace 8 java/io/File 14 org/gradle/api/internal/file/DefaultFileCollectionFactory 20 org/gradle/internal/fingerprint/impl/DefaultFileCollectionSnapshotter 26 org/gradle/api/internal/artifacts/transform/DefaultTransformationWorkspace 32 java/io/File 38 org/gradle/api/internal/file/DefaultFileCollectionFactory 44 org/gradle/internal/fingerprint/impl/DefaultFileCollectionSnapshotter
+ciMethodData org/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory$2 lambda$call$0 (Lorg/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory$TransformerExecution;Lorg/gradle/internal/execution/ExecutionOutcome;)Lcom/google/common/collect/ImmutableList; 2 5744 orig 264 88 29 212 84 0 0 0 0 40 226 116 36 0 0 0 0 96 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 1 0 0 137 163 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x1471 oops 0
+ciMethodData org/gradle/internal/execution/steps/SkipUpToDateStep$1 getOutcome ()Lorg/gradle/internal/Try; 2 7553 orig 264 88 29 212 84 0 0 0 0 48 151 125 36 0 0 0 0 88 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 1 0 0 1 224 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 3 0 0 0 0 0 data 2 0x30002 0x1bf3 oops 0
+ciMethodData org/gradle/internal/Try$Success tryMap (Ljava/util/function/Function;)Lorg/gradle/internal/Try; 2 8583 orig 264 88 29 212 84 0 0 0 0 216 176 117 36 0 0 0 0 112 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 1 0 0 49 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 32 0 0 0 255 255 255 255 2 0 6 0 0 0 0 0 data 4 0x60002 0x1ff2 0x90002 0x1ffd oops 0
+ciMethodData org/gradle/internal/Try$Success$1 <init> (Lorg/gradle/internal/Try$Success;Ljava/util/function/Function;)V 2 8554 orig 264 88 29 212 84 0 0 0 0 104 167 125 36 0 0 0 0 64 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 1 0 0 81 255 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 16 0 0 0 255 255 255 255 2 0 11 0 0 0 0 0 data 2 0xb0002 0x1fec oops 0
+ciMethodData org/gradle/internal/Try ofFailable (Ljava/util/concurrent/Callable;)Lorg/gradle/internal/Try; 2 8570 orig 264 88 29 212 84 0 0 0 0 200 143 117 36 0 0 0 0 152 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 130 1 0 0 193 255 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 80 0 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 10 0x10005 0x0 0x1e80eca0 0x2000 0x0 0x0 0x60002 0x2061 0xc0002 0x0 oops 1 2 org/gradle/internal/Try$Success$1
+ciMethodData org/gradle/internal/Try$Success$1 call ()Ljava/lang/Object; 2 8578 orig 264 88 29 212 84 0 0 0 0 24 168 125 36 0 0 0 0 136 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 131 1 0 0 249 255 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 64 0 0 0 255 255 255 255 2 0 8 0 0 0 0 0 data 8 0x80002 0x1ff3 0xb0005 0x0 0x22cdaaf0 0x2008 0x0 0x0 oops 1 4 org/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory$2$$Lambda$505
+ciMethodData org/gradle/internal/Try failure (Ljava/lang/Throwable;)Lorg/gradle/internal/Try; 1 6 orig 264 88 29 212 84 0 0 0 0 48 145 117 36 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 49 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 16 0 0 0 255 255 255 255 2 0 5 0 0 0 0 0 data 2 0x50002 0x6 oops 0
+ciMethodData org/gradle/internal/execution/steps/LoadExecutionStateStep execute (Lorg/gradle/internal/execution/Context;)Lorg/gradle/internal/execution/Result; 2 5661 orig 264 88 29 212 84 0 0 0 0 32 143 80 31 0 0 0 0 176 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 233 160 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 96 0 0 0 255 255 255 255 4 0 2 0 0 0 0 0 data 12 0x20004 0x0 0x22cd9480 0x13ae 0x1d483af0 0x6f 0x50005 0x0 0x1faa5480 0x141e 0x0 0x0 oops 3 2 org/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory$2$1 4 org/gradle/api/internal/tasks/execution/ExecuteActionsTaskExecuter$1 8 org/gradle/internal/execution/steps/LoadExecutionStateStep
+ciMethodData org/gradle/internal/execution/steps/LoadExecutionStateStep execute (Lorg/gradle/internal/execution/ExecutionRequestContext;)Lorg/gradle/internal/execution/Result; 2 5661 orig 264 88 29 212 84 0 0 0 0 120 142 80 31 0 0 0 0 80 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 233 160 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 26 0 2 0 0 0 0 1 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 32 0x10005 0x0 0x22cd9480 0x13af 0x1d483af0 0x6f 0x80005 0x0 0x22cd8dc0 0x13ad 0x1d483f90 0x6f 0xe000a 0x141e 0x3 0x0 0x2 0x1d484070 0x130005 0x0 0x1d484120 0x141d 0x0 0x0 0x230002 0x1421 0x260005 0x0 0x1d4841d0 0x1421 0x0 0x0 oops 6 2 org/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory$2$1 4 org/gradle/api/internal/tasks/execution/ExecuteActionsTaskExecuter$1 8 org/gradle/api/internal/artifacts/transform/DefaultTransformerInvocationFactory$TransformerExecution 10 org/gradle/api/internal/tasks/execution/ExecuteActionsTaskExecuter$TaskExecution 20 java/util/Optional 28 org/gradle/internal/execution/steps/legacy/MarkSnapshottingInputsStartedStep
+ciMethodData com/sun/proxy/$Proxy47 beforeTransformerInvocation (Lorg/gradle/api/Describable;Lorg/gradle/api/Describable;)V 2 8699 orig 264 88 29 212 84 0 0 0 0 160 233 61 35 0 0 0 0 248 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 217 255 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 5 0 2 0 0 0 160 0 0 0 255 255 255 255 4 0 15 0 0 0 0 0 data 20 0xf0004 0x0 0x1b813110 0x1ffc 0x0 0x0 0x130004 0x0 0x1b8131c0 0x1ce6 0x1b813270 0x317 0x140005 0x0 0x1b813320 0x1ffa 0x0 0x0 0x220002 0x0 oops 4 2 org/gradle/api/internal/artifacts/transform/DefaultTransformer 8 org/gradle/api/internal/artifacts/transform/TransformationSubject$SubsequentTransformationSubject 10 org/gradle/api/internal/artifacts/transform/TransformationSubject$InitialArtifactTransformationSubject 14 org/gradle/internal/dispatch/ProxyDispatchAdapter$DispatchingInvocationHandler
+ciMethodData java/lang/invoke/LambdaForm$MH linkToTargetMethod (Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; 2 8704 orig 264 88 29 212 84 0 0 0 0 192 177 119 36 0 0 0 0 96 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 1 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 144 0 0 0 48 1 0 0 4 0 2 0 0 0 0 0 data 18 0x20004 0x0 0x2742840 0x81 0x0 0x0 0x17000b 0x1fff 0x2742840 0x1 0x0 0x0 0x5 0x1 0x22dffe80 0x2 0x2679be0 0x22e05890 oops 2 2 java/lang/invoke/DirectMethodHandle 8 java/lang/invoke/DirectMethodHandle
+ciMethodData org/gradle/internal/execution/steps/ResolveCachingStateStep$2 getOutcome ()Lorg/gradle/internal/Try; 2 8704 orig 264 88 29 212 84 0 0 0 0 16 160 125 36 0 0 0 0 120 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 1 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 48 0 0 0 255 255 255 255 5 0 4 0 0 0 0 0 data 6 0x40005 0x0 0x1faa7020 0x1fee 0x1faa70d0 0x20 oops 2 2 org/gradle/internal/execution/steps/SkipUpToDateStep$1 4 org/gradle/internal/execution/steps/SkipUpToDateStep$2
+ciMethodData org/gradle/internal/Try$Success mapFailure (Ljava/util/function/Function;)Lorg/gradle/internal/Try; 2 1536 orig 264 88 29 212 84 0 0 0 0 136 177 117 36 0 0 0 0 40 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 1 32 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData com/sun/proxy/$Proxy47 afterTransformerInvocation (Lorg/gradle/api/Describable;Lorg/gradle/api/Describable;)V 2 5648 orig 264 88 29 212 84 0 0 0 0 24 232 61 35 0 0 0 0 248 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 129 160 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 5 0 2 0 0 0 160 0 0 0 255 255 255 255 4 0 15 0 0 0 0 0 data 20 0xf0004 0x0 0x1b813110 0x1422 0x0 0x0 0x130004 0x0 0x1b8131c0 0x1223 0x1b813270 0x201 0x140005 0x0 0x1b813320 0x142b 0x0 0x0 0x220002 0x0 oops 4 2 org/gradle/api/internal/artifacts/transform/DefaultTransformer 8 org/gradle/api/internal/artifacts/transform/TransformationSubject$SubsequentTransformationSubject 10 org/gradle/api/internal/artifacts/transform/TransformationSubject$InitialArtifactTransformationSubject 14 org/gradle/internal/dispatch/ProxyDispatchAdapter$DispatchingInvocationHandler
+ciMethod org/gradle/internal/execution/steps/SkipUpToDateStep$2 getOutcome ()Lorg/gradle/internal/Try; 257 1 32 0 0
+instanceKlass com/android/ide/common/workers/WorkerExecutorException$Companion
+instanceKlass com/google/common/collect/ImmutableMap$SerializedForm
+instanceKlass com/google/common/collect/SetMultimap
+instanceKlass com/android/ide/common/blame/SourceFileJsonTypeAdapter$1
+instanceKlass com/sun/org/apache/xerces/internal/util/NamespaceContextWrapper
+instanceKlass com/sun/org/apache/xerces/internal/impl/XMLStreamReaderImpl
+instanceKlass javax/xml/stream/XMLStreamReader
+instanceKlass javax/xml/stream/XMLStreamConstants
+instanceKlass com/sun/org/apache/xerces/internal/impl/PropertyManager
+instanceKlass javax/xml/stream/SecuritySupport$1
+instanceKlass javax/xml/stream/FactoryFinder$1
+instanceKlass javax/xml/stream/SecuritySupport$5
+instanceKlass javax/xml/stream/SecuritySupport$2
+instanceKlass javax/xml/stream/SecuritySupport
+instanceKlass javax/xml/stream/FactoryFinder
+instanceKlass javax/xml/stream/XMLInputFactory
+instanceKlass org/gradle/internal/typeconversion/NotationConverterToNotationParserAdapter$1
+instanceKlass org/gradle/internal/fingerprint/overlap/OverlappingOutputs
+instanceKlass org/gradle/internal/execution/steps/ValidateStep$1
+instanceKlass com/android/build/gradle/internal/services/Aapt2WorkersBuildServiceKey
+instanceKlass sun/nio/ch/Util$5
+instanceKlass sun/nio/ch/FileChannelImpl$Unmapper
+instanceKlass java/nio/channels/FileChannel$MapMode
+instanceKlass com/android/zipflinger/ZipSource
+instanceKlass com/android/builder/internal/packaging/IncrementalPackager$$Lambda$942
+instanceKlass com/android/builder/internal/packaging/IncrementalPackager$$Lambda$941
+instanceKlass com/android/tools/build/apkzlib/utils/IOExceptionRunnable$$Lambda$940
+instanceKlass com/android/builder/files/IncrementalRelativeFileSets$$Lambda$939
+instanceKlass com/android/tools/build/apkzlib/utils/IOExceptionRunnable
+instanceKlass com/android/builder/files/DirectoryEntry
+instanceKlass com/android/builder/files/ZipCentralDirectoryKt
+instanceKlass com/android/builder/files/ZipCentralDirectory$CdrInfo
+instanceKlass com/android/builder/files/IncrementalRelativeFileSets
+instanceKlass com/android/builder/files/ZipCentralDirectory
+instanceKlass com/android/build/gradle/internal/res/Aapt2CompileRunnable$Params
+instanceKlass com/android/build/gradle/internal/res/Aapt2CompileRunnable
+instanceKlass kotlin/comparisons/ComparisonsKt__ComparisonsKt$compareBy$1
+instanceKlass com/android/ide/common/blame/MergingLogPersistUtil$SourcePositionsSerializer
+instanceKlass com/android/ide/common/blame/MergingLogPersistUtil$$Lambda$938
+instanceKlass com/android/ide/common/blame/MergingLogPersistUtil$$Lambda$937
+instanceKlass com/android/ide/common/blame/MergingLogPersistUtil
+instanceKlass com/android/builder/internal/aapt/v2/Aapt2RenamingConventions
+instanceKlass com/android/ide/common/resources/CompileResourceRequest
+instanceKlass com/google/common/io/CharSink
+instanceKlass com/android/utils/XmlUtils$PositionAwareStringBuilder
+instanceKlass com/sun/org/apache/xerces/internal/dom/CoreDOMImplementationImpl
+instanceKlass org/w3c/dom/ls/DOMImplementationLS
+instanceKlass org/w3c/dom/DOMImplementation
+instanceKlass com/google/common/collect/AbstractMapBasedMultimap$WrappedCollection$WrappedIterator
+instanceKlass com/android/utils/Pair
+instanceKlass com/google/common/collect/LinkedListMultimap$NodeIterator
+instanceKlass com/google/common/collect/HashBasedTable$Factory
+instanceKlass java/util/concurrent/ConcurrentLinkedDeque$Node
+instanceKlass com/android/build/gradle/internal/aapt/WorkerExecutorResourceCompilationService
+instanceKlass com/android/build/gradle/internal/services/Aapt2WorkersBuildService$WorkerServiceInfo
+instanceKlass com/android/build/gradle/internal/services/Aapt2WorkersBuildService$Params$Inject
+instanceKlass com/android/ide/common/blame/MergingLog
+instanceKlass com/android/utils/PositionXmlParser$Position
+instanceKlass com/sun/org/apache/xerces/internal/util/EntityResolver2Wrapper
+instanceKlass com/sun/org/apache/xerces/internal/dom/ParentNode$UserDataRecord
+instanceKlass org/xml/sax/ext/DeclHandler
+instanceKlass org/xml/sax/ext/LexicalHandler
+instanceKlass com/android/utils/PositionXmlParser
+instanceKlass com/android/ide/common/resources/ResourceSet$1
+instanceKlass com/android/ide/common/resources/ResourceSet$FolderData
+instanceKlass com/android/ide/common/resources/DataSet$1
+instanceKlass com/android/build/gradle/tasks/MergeResources$$Lambda$936
+instanceKlass com/android/build/gradle/tasks/MergeResources$$Lambda$935
+instanceKlass com/android/build/gradle/tasks/MergeResources$$Lambda$934
+instanceKlass com/google/common/collect/LinkedListMultimap$ValueForKeyIterator
+instanceKlass com/google/common/collect/LinkedListMultimap$DistinctKeyIterator
+instanceKlass com/google/common/collect/Multimaps$AsMap$EntrySet$1
+instanceKlass com/android/utils/SdkUtils
+instanceKlass com/android/ide/common/resources/FileResourceNameValidator
+instanceKlass com/android/resources/FolderTypeRelationship
+instanceKlass com/google/common/collect/LinkedListMultimap$KeyList
+instanceKlass com/android/ide/common/rendering/api/ResourceNamespace$Resolver
+instanceKlass com/android/ide/common/rendering/api/TextResourceValue
+instanceKlass com/android/ide/common/rendering/api/PluralsResourceValue
+instanceKlass com/android/ide/common/rendering/api/ArrayResourceValue
+instanceKlass com/android/ide/common/rendering/api/StyleableResourceValue
+instanceKlass com/android/ide/common/rendering/api/StyleResourceValue
+instanceKlass com/android/ide/common/rendering/api/ResourceValueImpl
+instanceKlass com/android/ide/common/rendering/api/AttrResourceValue
+instanceKlass com/android/ide/common/rendering/api/StyleItemResourceValue
+instanceKlass com/android/ide/common/rendering/api/ResourceValue
+instanceKlass com/android/ide/common/resources/ValueResourceNameValidator
+instanceKlass com/android/resources/ResourceType$$Lambda$933
+instanceKlass com/android/resources/ResourceType$$Lambda$932
+instanceKlass com/android/ide/common/resources/ValueResourceParser2
+instanceKlass com/android/ide/common/resources/configuration/FolderConfiguration
+instanceKlass com/android/ide/common/resources/NodeUtils
+instanceKlass com/android/ide/common/resources/DataItem
+instanceKlass com/android/ide/common/resources/ResourceItem
+instanceKlass com/android/ide/common/resources/configuration/Configurable
+instanceKlass com/android/build/gradle/internal/LoggerWrapper$LoggerSupplier
+instanceKlass com/android/ide/common/resources/configuration/ResourceQualifier
+instanceKlass com/android/builder/png/VectorDrawableRenderer
+instanceKlass com/android/build/gradle/tasks/MergeResources$$Lambda$931
+instanceKlass com/android/build/gradle/internal/tasks/IncrementalTask$getChangedInputs$2
+instanceKlass com/android/build/gradle/internal/tasks/IncrementalTask$getChangedInputs$1
+instanceKlass org/gradle/internal/classloader/ConfigurableClassLoaderHierarchyHasher$1
+instanceKlass org/gradle/api/internal/artifacts/transform/TransformationNode$1
+instanceKlass org/gradle/api/internal/artifacts/repositories/metadata/DefaultMavenImmutableAttributesFactory$1
+instanceKlass org/gradle/internal/serialize/CausePlaceholder
+instanceKlass org/gradle/internal/serialize/ExceptionPlaceholder$1
+instanceKlass org/gradle/internal/serialize/ExceptionReplacingObjectOutputStream$2
+instanceKlass org/gradle/internal/buildevents/BuildExceptionReporter$2
+instanceKlass org/gradle/internal/logging/text/BufferingStyledTextOutput$ChangeStyleAction
+instanceKlass org/gradle/internal/logging/text/BufferingStyledTextOutput$1
+instanceKlass org/gradle/internal/buildevents/BuildExceptionReporter$FailureDetails
+instanceKlass org/apache/groovy/util/SystemUtil
+instanceKlass org/codehaus/groovy/runtime/StackTraceUtils
+instanceKlass org/gradle/internal/exceptions/Contextual
+instanceKlass org/gradle/execution/plan/DefaultExecutionPlan$$Lambda$930
+instanceKlass java/lang/Throwable$PrintStreamOrWriter
+instanceKlass org/gradle/internal/build/event/types/DefaultFailure
+instanceKlass org/gradle/tooling/internal/protocol/InternalFailure
+instanceKlass org/gradle/internal/execution/history/changes/ChangeDetectorVisitor
+instanceKlass org/gradle/internal/execution/steps/CatchExceptionStep$$Lambda$929
+instanceKlass com/sun/tools/javac/util/JCDiagnostic$SourcePosition
+instanceKlass com/sun/tools/javac/util/JCDiagnostic$1
+instanceKlass java/util/ArrayDeque$1
+instanceKlass org/gradle/api/internal/tasks/compile/incremental/asm/ClassRelevancyFilter
+instanceKlass com/android/build/gradle/tasks/PackageAndroidArtifact$$Lambda$928
+instanceKlass com/android/build/gradle/tasks/PackageAndroidArtifact$$Lambda$927
+instanceKlass com/android/build/gradle/tasks/PackageAndroidArtifact$IncrementalSplitterRunnable$$Lambda$926
+instanceKlass com/google/common/collect/CollectSpliterators$1WithCharacteristics$$Lambda$925
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass com/android/build/gradle/tasks/PackageAndroidArtifact$$Lambda$924
+instanceKlass com/android/build/gradle/tasks/PackageAndroidArtifact$$Lambda$923
+instanceKlass com/android/build/gradle/tasks/PackageAndroidArtifact$$Lambda$922
+instanceKlass com/google/common/collect/CollectSpliterators$1WithCharacteristics
+instanceKlass com/google/common/collect/CollectSpliterators
+instanceKlass com/google/common/collect/IndexedImmutableSet$$Lambda$921
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass com/android/signflinger/ApkSigningBlock
+instanceKlass com/android/apksig/DefaultApkSignerEngine$OutputApkSigningBlockRequestImpl
+instanceKlass sun/security/rsa/RSACore$BlindingRandomPair
+instanceKlass sun/security/jca/JCAUtil$CachedSecureRandomHolder
+instanceKlass sun/security/rsa/RSACore$BlindingParameters
+instanceKlass com/android/apksig/internal/apk/v2/V2SchemeSigner$V2SignatureSchemeBlock$Signer
+instanceKlass com/android/apksig/internal/apk/v2/V2SchemeSigner$V2SignatureSchemeBlock$SignedData
+instanceKlass com/android/apksig/internal/util/ByteBufferUtils
+instanceKlass com/android/apksig/internal/x509/RSAPublicKey
+instanceKlass com/android/apksig/internal/asn1/Asn1OpaqueObject
+instanceKlass com/android/apksig/internal/asn1/Asn1BerParser$BerToJavaConverter
+instanceKlass com/android/apksig/internal/asn1/Asn1BerParser$$Lambda$920
+instanceKlass com/android/apksig/internal/asn1/Asn1BerParser$AnnotatedField
+instanceKlass com/android/apksig/internal/asn1/Asn1Field
+instanceKlass com/android/apksig/internal/pkcs7/AlgorithmIdentifier
+instanceKlass com/android/apksig/internal/asn1/ber/BerEncoding$1
+instanceKlass com/android/apksig/internal/asn1/Asn1BerParser$1
+instanceKlass com/android/apksig/internal/asn1/Asn1Class
+instanceKlass com/android/apksig/internal/asn1/ber/BerDataValue
+instanceKlass com/android/apksig/internal/asn1/ber/BerEncoding
+instanceKlass com/android/apksig/internal/asn1/ber/ByteBufferBerDataValueReader
+instanceKlass com/android/apksig/internal/asn1/ber/BerDataValueReader
+instanceKlass com/android/apksig/internal/asn1/Asn1BerParser
+instanceKlass com/android/apksig/internal/x509/SubjectPublicKeyInfo
+instanceKlass sun/security/jca/JCAUtil
+instanceKlass com/android/apksig/internal/apk/ApkSigningBlockUtils$ChunkSupplier$Chunk
+instanceKlass com/android/apksig/internal/util/MessageDigestSink
+instanceKlass com/android/apksig/util/ReadableDataSink
+instanceKlass com/android/apksig/util/DataSink
+instanceKlass com/android/apksig/util/DataSinks
+instanceKlass com/android/apksig/internal/apk/ApkSigningBlockUtils$ChunkDigester
+instanceKlass com/android/apksig/internal/apk/ApkSigningBlockUtils$$Lambda$919
+instanceKlass com/android/apksig/internal/apk/ApkSigningBlockUtils$ChunkSupplier
+instanceKlass com/android/apksig/internal/apk/ApkSigningBlockUtils$ChunkDigests
+instanceKlass com/android/apksig/internal/apk/ApkSigningBlockUtils$$Lambda$918
+instanceKlass java/security/spec/MGF1ParameterSpec
+instanceKlass java/security/spec/PSSParameterSpec
+instanceKlass com/android/apksig/internal/apk/v2/V2SchemeSigner
+instanceKlass com/android/apksig/internal/apk/ApkSigningBlockUtils$SignerConfig
+instanceKlass com/android/apksig/internal/util/ByteBufferDataSource
+instanceKlass com/android/apksig/internal/zip/ZipUtils
+instanceKlass com/android/apksig/internal/util/Pair
+instanceKlass com/android/apksig/internal/apk/ApkSigningBlockUtils
+instanceKlass com/android/apksig/internal/util/RandomAccessFileDataSource
+instanceKlass com/android/apksig/util/DataSource
+instanceKlass com/android/apksig/util/DataSources
+instanceKlass java/util/zip/Deflater
+instanceKlass com/google/common/collect/HashBiMap$Itr
+instanceKlass com/android/zipflinger/Compressor
+instanceKlass com/google/common/collect/TransformedIterator
+instanceKlass com/android/builder/internal/packaging/IncrementalPackager$$Lambda$917
+instanceKlass com/android/builder/internal/packaging/IncrementalPackager$$Lambda$916
+instanceKlass com/android/builder/internal/packaging/IncrementalPackager$$Lambda$915
+instanceKlass com/android/builder/internal/packaging/ApkFlinger$writeFile$1
+instanceKlass com/android/builder/internal/packaging/IncrementalPackager$$Lambda$914
+instanceKlass com/android/builder/internal/packaging/IncrementalPackager$$Lambda$913
+instanceKlass com/android/apksig/util/RunnablesExecutor$$Lambda$912
+instanceKlass com/android/apksig/ApkSignerEngine$OutputJarSignatureRequest
+instanceKlass com/android/apksig/ApkSignerEngine$InspectJarEntryRequest
+instanceKlass com/android/apksig/ApkSignerEngine$OutputApkSigningBlockRequest2
+instanceKlass com/android/apksig/ApkSignerEngine$OutputApkSigningBlockRequest
+instanceKlass com/android/apksig/DefaultApkSignerEngine
+instanceKlass com/android/apksig/DefaultApkSignerEngine$Builder
+instanceKlass com/android/apksig/DefaultApkSignerEngine$SignerConfig
+instanceKlass com/android/apksig/DefaultApkSignerEngine$SignerConfig$Builder
+instanceKlass com/android/zipflinger/Entry
+instanceKlass com/android/zipflinger/ZipMap
+instanceKlass com/android/signflinger/SignedApkOptions
+instanceKlass com/android/apksig/ApkSignerEngine
+instanceKlass com/android/signflinger/SignedApk
+instanceKlass com/android/builder/internal/packaging/SynchronizedArchive
+instanceKlass com/android/signflinger/SignedApkOptions$Builder
+instanceKlass com/android/builder/internal/packaging/ApkFlinger$3
+instanceKlass com/android/builder/internal/packaging/ApkFlinger$2
+instanceKlass com/android/builder/internal/packaging/ApkFlinger$WhenMappings
+instanceKlass com/android/builder/internal/packaging/ApkFlinger
+instanceKlass com/android/builder/internal/packaging/IncrementalPackager$1
+instanceKlass com/android/builder/internal/packaging/IncrementalPackager$$Lambda$911
+instanceKlass com/android/builder/internal/packaging/IncrementalPackager$$Lambda$910
+instanceKlass com/android/builder/internal/packaging/IncrementalPackager$$Lambda$909
+instanceKlass com/android/builder/internal/packaging/IncrementalPackager$$Lambda$908
+instanceKlass com/android/builder/internal/packaging/PackagedFileUpdates
+instanceKlass com/google/common/base/Predicates$CompositionPredicate
+instanceKlass com/google/common/base/Predicates
+instanceKlass com/android/builder/internal/packaging/IncrementalPackager$$Lambda$907
+instanceKlass com/android/builder/internal/packaging/DexIncrementalRenameManager$1
+instanceKlass com/android/builder/internal/packaging/DexIncrementalRenameManager$$Lambda$906
+instanceKlass com/android/builder/internal/packaging/DexIncrementalRenameManager$$Lambda$905
+instanceKlass com/android/builder/internal/packaging/PackagedFileUpdate
+instanceKlass com/android/builder/internal/packaging/DexIncrementalRenameManager$$Lambda$904
+instanceKlass com/android/builder/internal/packaging/DexIncrementalRenameManager$Bucket
+instanceKlass com/android/builder/internal/packaging/DexFileNameSupplier
+instanceKlass com/android/builder/internal/packaging/DexIncrementalRenameManager$$Lambda$903
+instanceKlass com/android/builder/internal/packaging/DexIncrementalRenameManager$DexFileComparator
+instanceKlass com/android/builder/internal/packaging/DexIncrementalRenameManager$$Lambda$902
+instanceKlass com/android/builder/internal/packaging/DexIncrementalRenameManager$$Lambda$901
+instanceKlass com/android/builder/files/NativeLibraryAbiPredicate
+instanceKlass com/android/builder/internal/packaging/DexIncrementalRenameManager
+instanceKlass com/android/tools/build/apkzlib/zfile/ApkZFileCreatorFactory
+instanceKlass com/android/tools/build/apkzlib/zfile/ApkCreatorFactory
+instanceKlass com/android/tools/build/apkzlib/zip/utils/ByteTracker
+instanceKlass com/android/tools/build/apkzlib/zip/ZFileOptions$$Lambda$900
+instanceKlass com/android/tools/build/apkzlib/zip/VerifyLog
+instanceKlass com/android/tools/build/apkzlib/zip/VerifyLogs
+instanceKlass com/android/tools/build/apkzlib/zip/AlignmentRules$$Lambda$899
+instanceKlass com/android/tools/build/apkzlib/zip/AlignmentRules
+instanceKlass com/android/tools/build/apkzlib/zip/AlignmentRule
+instanceKlass com/android/tools/build/apkzlib/zip/ZFileOptions$$Lambda$898
+instanceKlass com/android/tools/build/apkzlib/zip/compress/ExecutorCompressor
+instanceKlass com/android/tools/build/apkzlib/zip/ZFileOptions$$Lambda$897
+instanceKlass com/android/tools/build/apkzlib/bytestorage/TemporaryDirectoryFactory
+instanceKlass com/android/tools/build/apkzlib/bytestorage/TemporaryDirectory
+instanceKlass com/android/tools/build/apkzlib/bytestorage/OverflowToDiskByteStorageFactory
+instanceKlass com/android/tools/build/apkzlib/bytestorage/ByteStorage
+instanceKlass com/android/tools/build/apkzlib/bytestorage/ChunkBasedByteStorageFactory
+instanceKlass com/android/tools/build/apkzlib/zip/Compressor
+instanceKlass com/android/tools/build/apkzlib/bytestorage/ByteStorageFactory
+instanceKlass com/android/tools/build/apkzlib/zip/ZFileOptions
+instanceKlass com/android/build/gradle/internal/packaging/ApkCreatorFactories
+instanceKlass com/android/builder/internal/packaging/IncrementalPackager
+instanceKlass com/android/build/gradle/internal/packaging/IncrementalPackagerBuilder$$Lambda$896
+instanceKlass com/android/builder/packaging/PackagingUtils$$Lambda$895
+instanceKlass com/android/build/gradle/internal/packaging/IncrementalPackagerBuilder$$Lambda$894
+instanceKlass com/android/apksig/util/RunnablesExecutor
+instanceKlass com/android/apksig/util/RunnablesProvider
+instanceKlass com/android/build/gradle/internal/packaging/IncrementalPackagerBuilder$1
+instanceKlass com/android/tools/build/apkzlib/sign/SigningOptions$Builder
+instanceKlass com/android/tools/build/apkzlib/sign/SigningOptions
+instanceKlass com/android/ide/common/signing/CertificateInfo
+instanceKlass java/security/KeyStore$PrivateKeyEntry
+instanceKlass java/security/KeyStore$Entry
+instanceKlass sun/security/pkcs/EncryptedPrivateKeyInfo
+instanceKlass sun/security/provider/KeyProtector
+instanceKlass sun/security/provider/JavaKeyStore$TrustedCertEntry
+instanceKlass java/security/KeyStore$PasswordProtection
+instanceKlass sun/security/provider/JavaKeyStore$KeyEntry
+instanceKlass sun/security/provider/KeyStoreDelegator$1
+instanceKlass java/security/KeyStoreSpi
+instanceKlass com/android/tools/build/apkzlib/zfile/ApkCreatorFactory$CreationData$$Lambda$893
+instanceKlass com/android/tools/build/apkzlib/zfile/ApkCreatorFactory$CreationData$Builder
+instanceKlass com/android/tools/build/apkzlib/zfile/ApkCreatorFactory$CreationData
+instanceKlass com/android/build/gradle/internal/packaging/IncrementalPackagerBuilder
+instanceKlass com/android/build/gradle/tasks/PackageAndroidArtifact$$Lambda$892
+instanceKlass com/android/builder/files/IncrementalChanges
+instanceKlass com/android/build/gradle/tasks/PackageAndroidArtifact$IncrementalSplitterRunnable$$Lambda$891
+instanceKlass com/android/build/gradle/internal/scope/BuildElements$WorkersBasedScheduler$transform$2
+instanceKlass com/android/build/gradle/tasks/PackageAndroidArtifact$SplitterParams$$Lambda$890
+instanceKlass com/android/build/gradle/internal/signing/SigningConfigProviderParams$Companion
+instanceKlass com/android/build/gradle/tasks/IncrementalChangesUtils$WhenMappings
+instanceKlass com/android/builder/files/SerializableChange$Companion
+instanceKlass com/android/builder/files/SerializableChange
+instanceKlass com/android/builder/files/SerializableInputChanges$Companion
+instanceKlass com/android/builder/files/SerializableInputChanges
+instanceKlass com/android/build/gradle/tasks/IncrementalChangesUtils
+instanceKlass com/android/build/gradle/tasks/PackageAndroidArtifact$$Lambda$889
+instanceKlass com/android/build/gradle/internal/scope/BuildElementsTransformRunnable
+instanceKlass java/nio/file/Files$2
+instanceKlass com/android/tools/r8/graph/b0$$Lambda$888
+instanceKlass com/android/tools/r8/s/a/a/b/K0
+instanceKlass com/android/tools/r8/s/a/a/b/G0
+instanceKlass com/android/tools/r8/dex/P$j
+instanceKlass com/android/tools/r8/dex/P$i
+instanceKlass com/android/tools/r8/dex/P$c$$Lambda$887
+instanceKlass com/android/tools/r8/dex/P$$Lambda$886
+instanceKlass com/android/tools/r8/naming/b
+instanceKlass com/android/tools/r8/graph/h0$a
+instanceKlass com/android/tools/r8/v/a/a/a/f/b
+instanceKlass com/android/tools/r8/dex/n$$Lambda$885
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass com/android/tools/r8/dex/n$c
+instanceKlass com/android/tools/r8/code/u1$a
+instanceKlass com/android/tools/r8/code/L
+instanceKlass com/android/tools/r8/code/K
+instanceKlass com/android/tools/r8/dex/n$$Lambda$883
+instanceKlass com/android/tools/r8/dex/n$$Lambda$882
+instanceKlass com/android/tools/r8/dex/n$$Lambda$881
+instanceKlass com/android/tools/r8/dex/n$$Lambda$880
+instanceKlass com/android/tools/r8/dex/n$d
+instanceKlass com/android/tools/r8/dex/n$$Lambda$878
+instanceKlass com/android/tools/r8/dex/n$$Lambda$877
+instanceKlass com/android/tools/r8/dex/n$$Lambda$875
+instanceKlass com/android/tools/r8/dex/n$$Lambda$874
+instanceKlass com/android/tools/r8/dex/n$$Lambda$872
+instanceKlass com/android/tools/r8/dex/n$$Lambda$870
+instanceKlass com/android/tools/r8/dex/n$$Lambda$868
+instanceKlass com/android/tools/r8/dex/n$b
+instanceKlass com/android/tools/r8/dex/a$a$$Lambda$867
+instanceKlass com/android/tools/r8/dex/a$a$$Lambda$866
+instanceKlass com/android/tools/r8/dex/n$$Lambda$865
+instanceKlass com/android/tools/r8/dex/d$$Lambda$864
+instanceKlass com/android/tools/r8/s/a/b/m/a
+instanceKlass com/android/tools/r8/s/a/b/g
+instanceKlass com/android/tools/r8/dex/p
+instanceKlass com/android/tools/r8/graph/I0
+instanceKlass com/android/tools/r8/dex/n
+instanceKlass com/android/tools/r8/s/a/a/d/g
+instanceKlass com/android/tools/r8/utils/R0
+instanceKlass com/google/common/io/ByteArrayDataOutput
+instanceKlass com/google/common/io/ByteArrayDataInput
+instanceKlass com/google/common/io/ByteStreams
+instanceKlass java/util/zip/ZipFile$ZipEntryIterator
+instanceKlass com/android/builder/dexing/NonIncrementalJarDexArchive
+instanceKlass com/android/tools/r8/D8Command$Builder$$Lambda$863
+instanceKlass com/android/builder/dexing/DexArchiveEntry
+instanceKlass com/android/builder/dexing/DirDexArchive
+instanceKlass com/android/builder/dexing/DexArchives$$Lambda$862
+instanceKlass com/android/builder/dexing/DexArchive
+instanceKlass com/android/builder/dexing/DexArchives
+instanceKlass com/android/builder/dexing/D8DexArchiveMerger$$Lambda$861
+instanceKlass com/android/builder/dexing/D8DexArchiveMerger
+instanceKlass com/android/builder/dexing/DexArchiveMerger
+instanceKlass com/android/build/gradle/internal/transforms/DexMergerTransformCallable$1
+instanceKlass com/android/build/gradle/internal/transforms/DexMergerTransformCallable
+instanceKlass kotlin/collections/AbstractIterator$WhenMappings
+instanceKlass kotlin/io/FileTreeWalk$WalkState
+instanceKlass kotlin/io/FileTreeWalk$FileTreeWalkIterator$WhenMappings
+instanceKlass kotlin/collections/AbstractIterator
+instanceKlass kotlin/io/FileTreeWalk
+instanceKlass com/google/common/io/CharSource
+instanceKlass com/android/ide/common/process/BaseProcessOutputHandler$BaseProcessOutput
+instanceKlass com/android/ide/common/blame/parser/DexParser
+instanceKlass com/android/ide/common/blame/parser/PatternAwareOutputParser
+instanceKlass com/android/ide/common/blame/parser/ToolOutputParser
+instanceKlass com/android/ide/common/process/ProcessOutput
+instanceKlass com/android/ide/common/process/BaseProcessOutputHandler
+instanceKlass org/gradle/internal/work/DefaultWorkerLeaseService$5$1
+instanceKlass org/gradle/internal/work/DefaultWorkerLeaseService$5
+instanceKlass org/gradle/internal/work/DefaultAsyncWorkTracker$1
+instanceKlass org/gradle/internal/work/DefaultAsyncWorkTracker$2
+instanceKlass com/google/common/collect/ImmutableSet$SerializedForm
+instanceKlass com/android/build/gradle/internal/tasks/DexMergingParams
+instanceKlass com/android/build/gradle/internal/tasks/DexMergingTaskRunnable
+instanceKlass com/android/build/gradle/internal/tasks/NonIncrementalTask$taskAction$$inlined$recordTaskAction$1
+instanceKlass com/android/tools/r8/s/a/a/d/n
+instanceKlass com/android/tools/r8/s/a/a/d/o
+instanceKlass com/android/tools/r8/s/a/a/d/p
+instanceKlass com/android/tools/r8/ByteDataView
+instanceKlass com/android/tools/r8/dex/r$a
+instanceKlass java/util/zip/Adler32
+instanceKlass com/android/tools/r8/dex/k
+instanceKlass com/android/tools/r8/dex/r$$Lambda$860
+instanceKlass com/android/tools/r8/dex/r$$Lambda$859
+instanceKlass com/android/tools/r8/dex/r$$Lambda$858
+instanceKlass com/android/tools/r8/dex/r$$Lambda$857
+instanceKlass com/android/tools/r8/dex/r$$Lambda$856
+instanceKlass com/android/tools/r8/dex/r$$Lambda$855
+instanceKlass com/android/tools/r8/dex/r$$Lambda$854
+instanceKlass com/android/tools/r8/dex/r$$Lambda$853
+instanceKlass com/android/tools/r8/dex/r$$Lambda$852
+instanceKlass com/android/tools/r8/dex/r$$Lambda$851
+instanceKlass com/android/tools/r8/dex/r$$Lambda$850
+instanceKlass com/android/tools/r8/dex/r$$Lambda$849
+instanceKlass com/android/tools/r8/dex/r$$Lambda$848
+instanceKlass com/android/tools/r8/dex/r$$Lambda$847
+instanceKlass com/android/tools/r8/dex/r$$Lambda$846
+instanceKlass com/android/tools/r8/dex/r$$Lambda$845
+instanceKlass com/android/tools/r8/dex/r$$Lambda$844
+instanceKlass com/android/tools/r8/dex/r$$Lambda$843
+instanceKlass com/android/tools/r8/dex/r$$Lambda$842
+instanceKlass com/android/tools/r8/dex/r$$Lambda$841
+instanceKlass com/android/tools/r8/dex/r$$Lambda$840
+instanceKlass com/android/tools/r8/dex/c
+instanceKlass com/android/tools/r8/utils/V
+instanceKlass com/android/tools/r8/dex/r$$Lambda$839
+instanceKlass com/android/tools/r8/dex/r$$Lambda$838
+instanceKlass com/android/tools/r8/dex/r$$Lambda$837
+instanceKlass com/android/tools/r8/dex/r$$Lambda$836
+instanceKlass com/android/tools/r8/dex/r$$Lambda$835
+instanceKlass com/android/tools/r8/dex/r$$Lambda$834
+instanceKlass com/android/tools/r8/dex/r$$Lambda$833
+instanceKlass com/android/tools/r8/dex/r$$Lambda$832
+instanceKlass com/android/tools/r8/utils/m0
+instanceKlass com/android/tools/r8/dex/l
+instanceKlass com/android/tools/r8/dex/r$$Lambda$831
+instanceKlass com/android/tools/r8/dex/r$$Lambda$830
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass com/android/tools/r8/dex/r$$Lambda$829
+instanceKlass com/android/tools/r8/naming/u
+instanceKlass com/android/tools/r8/naming/u$c
+instanceKlass com/android/tools/r8/dex/r$$Lambda$828
+instanceKlass com/android/tools/r8/dex/s
+instanceKlass com/android/tools/r8/utils/I0
+instanceKlass com/android/tools/r8/graph/b0$$Lambda$827
+instanceKlass com/android/tools/r8/graph/V$$Lambda$826
+instanceKlass com/android/tools/r8/v/a/a/a/h/F0$f
+instanceKlass com/android/tools/r8/v/a/a/a/h/K$f
+instanceKlass com/android/tools/r8/dex/r$$Lambda$825
+instanceKlass com/android/tools/r8/v/a/a/a/h/Q
+instanceKlass com/android/tools/r8/v/a/a/a/h/M
+instanceKlass com/android/tools/r8/dex/j
+instanceKlass com/android/tools/r8/dex/m
+instanceKlass com/android/tools/r8/graph/L0
+instanceKlass com/android/tools/r8/dex/r
+instanceKlass com/android/tools/r8/graph/H0$$Lambda$824
+instanceKlass com/android/tools/r8/graph/H0$$Lambda$823
+instanceKlass com/android/tools/r8/graph/H0$$Lambda$822
+instanceKlass com/android/tools/r8/graph/H0$$Lambda$821
+instanceKlass com/android/tools/r8/graph/H0$$Lambda$820
+instanceKlass com/android/tools/r8/graph/H0$$Lambda$819
+instanceKlass com/android/tools/r8/v/a/a/a/h/e1
+instanceKlass com/android/tools/r8/v/a/a/a/h/K0
+instanceKlass com/android/tools/r8/graph/H0$$Lambda$818
+instanceKlass com/android/tools/r8/graph/H0$$Lambda$817
+instanceKlass java/util/IdentityHashMap$IdentityHashMapSpliterator
+instanceKlass com/android/tools/r8/graph/H0$a
+instanceKlass com/android/tools/r8/graph/H0
+instanceKlass com/android/tools/r8/dex/b$$Lambda$816
+instanceKlass com/android/tools/r8/graph/P$$Lambda$815
+instanceKlass com/android/tools/r8/graph/x$$Lambda$814
+instanceKlass com/android/tools/r8/graph/V$$Lambda$813
+instanceKlass com/android/tools/r8/graph/b0$$Lambda$812
+instanceKlass com/android/tools/r8/graph/b0$$Lambda$811
+instanceKlass com/android/tools/r8/dex/b$$Lambda$810
+instanceKlass com/android/tools/r8/graph/W$$Lambda$809
+instanceKlass com/android/tools/r8/v/a/a/a/h/V$d
+instanceKlass com/android/tools/r8/v/a/a/a/h/V$f
+instanceKlass com/android/tools/r8/dex/d$$Lambda$808
+instanceKlass com/android/tools/r8/dex/d$$Lambda$807
+instanceKlass com/android/tools/r8/v/a/a/a/h/S$a
+instanceKlass com/android/tools/r8/v/a/a/a/h/T
+instanceKlass com/android/tools/r8/v/a/a/a/h/f
+instanceKlass com/android/tools/r8/v/a/a/a/h/S
+instanceKlass com/android/tools/r8/dex/d
+instanceKlass com/android/tools/r8/v/a/a/a/g/q
+instanceKlass com/android/tools/r8/v/a/a/a/h/M0
+instanceKlass com/android/tools/r8/v/a/a/a/h/u
+instanceKlass com/android/tools/r8/v/a/a/a/h/N0
+instanceKlass com/android/tools/r8/dex/P$g$$Lambda$806
+instanceKlass com/android/tools/r8/dex/P$g$$Lambda$805
+instanceKlass com/android/tools/r8/dex/P$g$$Lambda$804
+instanceKlass com/android/tools/r8/dex/P$g$$Lambda$803
+instanceKlass com/android/tools/r8/dex/P$g$$Lambda$802
+instanceKlass com/android/tools/r8/dex/P$g$$Lambda$801
+instanceKlass com/android/tools/r8/dex/P$g$$Lambda$800
+instanceKlass com/android/tools/r8/dex/P$g$$Lambda$799
+instanceKlass com/android/tools/r8/dex/P$g$$Lambda$798
+instanceKlass java/util/stream/Node$Builder
+instanceKlass java/util/stream/Node$OfDouble
+instanceKlass java/util/stream/Node$OfLong
+instanceKlass java/util/stream/Node$OfInt
+instanceKlass java/util/stream/Node$OfPrimitive
+instanceKlass java/util/stream/Nodes$EmptyNode
+instanceKlass java/util/stream/Node
+instanceKlass java/util/stream/Nodes
+instanceKlass com/android/tools/r8/graph/L$$Lambda$797
+instanceKlass com/android/tools/r8/graph/L$$Lambda$796
+instanceKlass com/android/tools/r8/graph/V$$Lambda$795
+instanceKlass com/android/tools/r8/dex/P$g
+instanceKlass com/android/tools/r8/dex/P$k
+instanceKlass com/android/tools/r8/dex/v
+instanceKlass com/android/tools/r8/dex/P
+instanceKlass com/android/tools/r8/s/a/b/k
+instanceKlass com/android/tools/r8/s/a/b/l/g/w
+instanceKlass com/android/tools/r8/s/a/b/m/c
+instanceKlass com/android/tools/r8/dex/B$$Lambda$794
+instanceKlass com/android/tools/r8/dex/B$$Lambda$793
+instanceKlass com/android/tools/r8/dex/i
+instanceKlass com/android/tools/r8/dex/E
+instanceKlass com/android/tools/r8/dex/P$b
+instanceKlass com/android/tools/r8/dex/F
+instanceKlass com/android/tools/r8/dex/b
+instanceKlass com/android/tools/r8/naming/a0/a
+instanceKlass com/android/tools/r8/naming/a0/e
+instanceKlass com/android/tools/r8/naming/I
+instanceKlass com/android/tools/r8/s/a/b/l/d$c
+instanceKlass com/android/tools/r8/s/a/b/l/f
+instanceKlass com/android/tools/r8/s/a/b/l/b
+instanceKlass com/android/tools/r8/dex/B
+instanceKlass com/android/tools/r8/s/a/a/b/f$a$b
+instanceKlass com/android/tools/r8/ir/conversion/O$$Lambda$792
+instanceKlass com/android/tools/r8/graph/W$$Lambda$791
+instanceKlass com/android/tools/r8/graph/W$$Lambda$790
+instanceKlass com/android/tools/r8/graph/W$$Lambda$789
+instanceKlass com/android/tools/r8/graph/W$$Lambda$788
+instanceKlass com/android/tools/r8/v/a/a/a/f/G
+instanceKlass com/android/tools/r8/ir/optimize/Z$$Lambda$787
+instanceKlass com/android/tools/r8/ir/regalloc/f
+instanceKlass com/android/tools/r8/ir/regalloc/g
+instanceKlass com/android/tools/r8/ir/regalloc/j$$Lambda$786
+instanceKlass com/android/tools/r8/ir/regalloc/j$$Lambda$785
+instanceKlass com/android/tools/r8/ir/regalloc/j$$Lambda$784
+instanceKlass com/android/tools/r8/ir/regalloc/j$$Lambda$783
+instanceKlass com/android/tools/r8/ir/regalloc/j$$Lambda$782
+instanceKlass com/android/tools/r8/ir/regalloc/i
+instanceKlass com/android/tools/r8/ir/regalloc/j$$Lambda$781
+instanceKlass com/android/tools/r8/s/a/a/b/U1
+instanceKlass com/android/tools/r8/s/a/a/b/T1
+instanceKlass com/android/tools/r8/s/a/a/b/S1$a
+instanceKlass com/android/tools/r8/s/a/a/b/x
+instanceKlass com/android/tools/r8/s/a/b/b
+instanceKlass com/android/tools/r8/s/a/a/a/b
+instanceKlass com/android/tools/r8/s/a/a/b/i
+instanceKlass com/android/tools/r8/ir/regalloc/a$$Lambda$780
+instanceKlass com/android/tools/r8/ir/regalloc/a$$Lambda$779
+instanceKlass com/android/tools/r8/ir/regalloc/a$$Lambda$778
+instanceKlass com/android/tools/r8/ir/regalloc/a$$Lambda$777
+instanceKlass com/android/tools/r8/ir/regalloc/a$$Lambda$776
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass com/android/tools/r8/ir/regalloc/a$$Lambda$775
+instanceKlass com/android/tools/r8/ir/regalloc/h
+instanceKlass com/android/tools/r8/ir/optimize/l$$Lambda$774
+instanceKlass com/android/tools/r8/ir/optimize/l$$Lambda$773
+instanceKlass com/android/tools/r8/ir/optimize/l$$Lambda$772
+instanceKlass com/android/tools/r8/v/a/a/a/h/X$d
+instanceKlass com/android/tools/r8/v/a/a/a/h/X$f
+instanceKlass com/android/tools/r8/ir/optimize/n$$Lambda$771
+instanceKlass java/util/stream/SliceOps
+instanceKlass com/android/tools/r8/ir/optimize/n$$Lambda$770
+instanceKlass com/android/tools/r8/ir/optimize/n$$Lambda$769
+instanceKlass com/android/tools/r8/v/a/a/a/h/Y
+instanceKlass com/android/tools/r8/ir/optimize/n$$Lambda$768
+instanceKlass com/android/tools/r8/u/a/a
+instanceKlass com/android/tools/r8/A/d
+instanceKlass com/android/tools/r8/ir/optimize/c0
+instanceKlass com/android/tools/r8/u/b/I
+instanceKlass com/android/tools/r8/graph/c$$Lambda$767
+instanceKlass com/android/tools/r8/graph/c$$Lambda$766
+instanceKlass com/android/tools/r8/ir/optimize/d0$$Lambda$765
+instanceKlass com/android/tools/r8/ir/analysis/type/t$$Lambda$764
+instanceKlass com/android/tools/r8/ir/analysis/type/t$$Lambda$763
+instanceKlass com/android/tools/r8/s/a/a/b/m
+instanceKlass com/android/tools/r8/s/a/a/b/P0
+instanceKlass com/android/tools/r8/s/a/a/b/H1
+instanceKlass com/android/tools/r8/u/b/o$$Lambda$762
+instanceKlass com/android/tools/r8/u/b/n$$Lambda$761
+instanceKlass com/android/tools/r8/ir/conversion/N$e
+instanceKlass com/android/tools/r8/ir/analysis/type/f$$Lambda$760
+instanceKlass com/android/tools/r8/ir/conversion/o0
+instanceKlass com/android/tools/r8/u/b/X0
+instanceKlass com/android/tools/r8/u/b/q1
+instanceKlass com/android/tools/r8/ir/optimize/w
+instanceKlass com/android/tools/r8/ir/optimize/w$b
+instanceKlass com/android/tools/r8/graph/J
+instanceKlass com/android/tools/r8/graph/W$$Lambda$759
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass com/android/tools/r8/graph/I
+instanceKlass com/android/tools/r8/ir/conversion/F
+instanceKlass com/android/tools/r8/ir/conversion/K
+instanceKlass com/android/tools/r8/ir/optimize/I$$Lambda$758
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass com/android/tools/r8/ir/optimize/I
+instanceKlass com/android/tools/r8/ir/optimize/Z
+instanceKlass com/android/tools/r8/u/b/h0$$Lambda$757
+instanceKlass com/android/tools/r8/u/b/h0$$Lambda$756
+instanceKlass com/android/tools/r8/u/b/n$$Lambda$755
+instanceKlass com/android/tools/r8/ir/regalloc/a$$Lambda$754
+instanceKlass com/android/tools/r8/ir/regalloc/a$$Lambda$753
+instanceKlass com/android/tools/r8/ir/regalloc/a$$Lambda$752
+instanceKlass com/android/tools/r8/u/c/c0/e$$Lambda$751
+instanceKlass com/android/tools/r8/ir/regalloc/a$$Lambda$750
+instanceKlass com/android/tools/r8/ir/regalloc/a$b
+instanceKlass com/android/tools/r8/ir/regalloc/a$$Lambda$749
+instanceKlass com/android/tools/r8/ir/regalloc/j
+instanceKlass com/android/tools/r8/ir/regalloc/c
+instanceKlass com/android/tools/r8/u/b/W$b
+instanceKlass com/android/tools/r8/ir/regalloc/d
+instanceKlass com/android/tools/r8/ir/regalloc/b
+instanceKlass com/android/tools/r8/u/b/o
+instanceKlass com/android/tools/r8/s/a/a/b/S1
+instanceKlass com/android/tools/r8/ir/regalloc/a
+instanceKlass com/android/tools/r8/ir/optimize/u
+instanceKlass com/android/tools/r8/ir/optimize/l$$Lambda$748
+instanceKlass com/android/tools/r8/s/a/a/a/W
+instanceKlass com/android/tools/r8/s/a/a/a/X
+instanceKlass com/android/tools/r8/ir/optimize/l$$Lambda$747
+instanceKlass com/android/tools/r8/u/b/N
+instanceKlass com/android/tools/r8/u/b/n$b
+instanceKlass com/android/tools/r8/ir/optimize/m
+instanceKlass com/android/tools/r8/v/a/a/a/h/a0
+instanceKlass com/android/tools/r8/v/a/a/a/h/g
+instanceKlass com/android/tools/r8/v/a/a/a/h/Z
+instanceKlass com/android/tools/r8/ir/optimize/d0
+instanceKlass com/android/tools/r8/u/a/i/e$$Lambda$746
+instanceKlass com/android/tools/r8/u/a/i/e$$Lambda$745
+instanceKlass com/android/tools/r8/u/a/i/e$$Lambda$744
+instanceKlass java/util/stream/ReduceOps$2ReducingSink
+instanceKlass java/util/function/BinaryOperator$$Lambda$743
+instanceKlass com/android/tools/r8/u/b/W$$Lambda$742
+instanceKlass java/util/LinkedList$LLSpliterator
+instanceKlass com/android/tools/r8/u/a/i/e
+instanceKlass com/android/tools/r8/ir/optimize/e
+instanceKlass com/android/tools/r8/u/b/Y
+instanceKlass com/android/tools/r8/ir/conversion/O$$Lambda$741
+instanceKlass com/android/tools/r8/u/a/o/f
+instanceKlass com/android/tools/r8/ir/conversion/O$$Lambda$740
+instanceKlass com/android/tools/r8/u/a/o/c
+instanceKlass com/android/tools/r8/ir/analysis/type/t$$Lambda$739
+instanceKlass com/android/tools/r8/u/b/W$a
+instanceKlass com/android/tools/r8/ir/analysis/type/t
+instanceKlass com/android/tools/r8/x/b/a/v0/o0/c
+instanceKlass com/android/tools/r8/x/b/a/T
+instanceKlass com/android/tools/r8/u/c/c0/e
+instanceKlass com/android/tools/r8/u/b/q
+instanceKlass com/android/tools/r8/u/b/X
+instanceKlass com/android/tools/r8/u/b/W$$Lambda$738
+instanceKlass com/android/tools/r8/u/b/W
+instanceKlass com/android/tools/r8/u/b/p
+instanceKlass com/android/tools/r8/ir/conversion/o$$Lambda$737
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass com/android/tools/r8/v/a/a/a/f/a0
+instanceKlass com/android/tools/r8/code/t1
+instanceKlass com/android/tools/r8/v/a/a/a/f/h
+instanceKlass com/android/tools/r8/ir/conversion/N$f
+instanceKlass com/android/tools/r8/v/a/a/a/f/X$d
+instanceKlass com/android/tools/r8/v/a/a/a/f/X$f
+instanceKlass com/android/tools/r8/u/a/m/e
+instanceKlass com/android/tools/r8/u/a/i/d
+instanceKlass com/android/tools/r8/u/b/m1$a
+instanceKlass com/android/tools/r8/u/b/b
+instanceKlass com/android/tools/r8/utils/j0
+instanceKlass com/android/tools/r8/ir/analysis/type/f$$Lambda$736
+instanceKlass com/android/tools/r8/ir/analysis/type/m
+instanceKlass com/android/tools/r8/graph/W$$Lambda$735
+instanceKlass com/android/tools/r8/ir/conversion/L
+instanceKlass com/android/tools/r8/ir/conversion/o$$Lambda$734
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass com/android/tools/r8/ir/conversion/t$a
+instanceKlass com/android/tools/r8/ir/conversion/m
+instanceKlass com/android/tools/r8/v/a/a/a/f/s0
+instanceKlass com/android/tools/r8/v/a/a/a/f/g0
+instanceKlass com/android/tools/r8/ir/conversion/n
+instanceKlass com/android/tools/r8/v/a/a/a/f/f0
+instanceKlass com/android/tools/r8/v/a/a/a/f/m0
+instanceKlass com/android/tools/r8/u/b/t
+instanceKlass com/android/tools/r8/u/b/n
+instanceKlass com/android/tools/r8/ir/conversion/N$b
+instanceKlass com/android/tools/r8/graph/p0$f$b
+instanceKlass com/android/tools/r8/graph/p0$f
+instanceKlass com/android/tools/r8/u/b/n1
+instanceKlass com/android/tools/r8/u/b/a0
+instanceKlass com/android/tools/r8/v/a/a/a/h/s0
+instanceKlass com/android/tools/r8/v/a/a/a/h/o0
+instanceKlass com/android/tools/r8/v/a/a/a/h/g0
+instanceKlass com/android/tools/r8/v/a/a/a/h/j0
+instanceKlass com/android/tools/r8/v/a/a/a/f/K$e
+instanceKlass com/android/tools/r8/v/a/a/a/f/C0
+instanceKlass com/android/tools/r8/v/a/a/a/f/d
+instanceKlass com/android/tools/r8/v/a/a/a/f/S$a
+instanceKlass com/android/tools/r8/ir/analysis/type/l
+instanceKlass com/android/tools/r8/ir/conversion/N
+instanceKlass com/android/tools/r8/u/b/s
+instanceKlass com/android/tools/r8/ir/conversion/w
+instanceKlass com/android/tools/r8/ir/conversion/t
+instanceKlass com/android/tools/r8/v/a/a/a/h/H0
+instanceKlass com/android/tools/r8/v/a/a/a/h/b1
+instanceKlass com/android/tools/r8/ir/conversion/x
+instanceKlass com/android/tools/r8/ir/conversion/o
+instanceKlass com/android/tools/r8/graph/l$a
+instanceKlass com/android/tools/r8/graph/B0$$Lambda$733
+instanceKlass com/android/tools/r8/graph/r
+instanceKlass com/android/tools/r8/u/b/S0
+instanceKlass com/android/tools/r8/graph/B0$$Lambda$732
+instanceKlass com/android/tools/r8/v/a/a/a/f/Y
+instanceKlass com/android/tools/r8/graph/z0
+instanceKlass com/android/tools/r8/B/a/a/y
+instanceKlass com/android/tools/r8/graph/y0
+instanceKlass com/android/tools/r8/ir/conversion/O$$Lambda$731
+instanceKlass com/android/tools/r8/position/MethodPosition
+instanceKlass com/android/tools/r8/ir/conversion/h
+instanceKlass com/android/tools/r8/ir/conversion/V
+instanceKlass com/android/tools/r8/u/a/m/a
+instanceKlass com/android/tools/r8/utils/y
+instanceKlass com/android/tools/r8/ir/optimize/info/r
+instanceKlass com/android/tools/r8/ir/conversion/O$$Lambda$730
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass com/android/tools/r8/utils/U0$$Lambda$729
+instanceKlass com/android/tools/r8/ir/conversion/O$$Lambda$728
+instanceKlass com/android/tools/r8/utils/X0
+instanceKlass com/android/tools/r8/u/c/M$$Lambda$727
+instanceKlass com/android/tools/r8/graph/Q0
+instanceKlass com/android/tools/r8/u/c/M
+instanceKlass com/android/tools/r8/u/c/h
+instanceKlass com/android/tools/r8/ir/conversion/O$$Lambda$726
+instanceKlass com/android/tools/r8/ir/conversion/O$$Lambda$725
+instanceKlass com/android/tools/r8/ir/optimize/v
+instanceKlass com/android/tools/r8/ir/optimize/d$$Lambda$724
+instanceKlass com/android/tools/r8/ir/optimize/c
+instanceKlass com/android/tools/r8/AssertionsConfiguration
+instanceKlass com/android/tools/r8/ir/optimize/o
+instanceKlass com/android/tools/r8/ir/optimize/string/b$c
+instanceKlass com/android/tools/r8/ir/optimize/string/a
+instanceKlass com/android/tools/r8/ir/optimize/string/b
+instanceKlass com/android/tools/r8/naming/Z/d
+instanceKlass com/android/tools/r8/u/a/k/b
+instanceKlass com/android/tools/r8/ir/optimize/string/d
+instanceKlass com/android/tools/r8/u/c/Z
+instanceKlass com/android/tools/r8/z/a
+instanceKlass com/android/tools/r8/v/a/a/a/b
+instanceKlass com/android/tools/r8/ir/optimize/n
+instanceKlass com/android/tools/r8/v/a/a/a/f/F0
+instanceKlass com/android/tools/r8/v/a/a/a/d
+instanceKlass com/android/tools/r8/v/a/a/a/f/r0
+instanceKlass com/android/tools/r8/v/a/a/a/h/s
+instanceKlass com/android/tools/r8/v/a/a/a/h/G0
+instanceKlass com/android/tools/r8/v/a/a/a/h/D0
+instanceKlass com/android/tools/r8/u/b/c0
+instanceKlass com/android/tools/r8/u/b/j0
+instanceKlass com/android/tools/r8/u/b/i0
+instanceKlass com/android/tools/r8/v/a/a/a/f/v
+instanceKlass com/android/tools/r8/v/a/a/a/f/s
+instanceKlass com/android/tools/r8/ir/optimize/l$e
+instanceKlass com/android/tools/r8/u/b/m1
+instanceKlass com/android/tools/r8/v/a/a/a/g/k
+instanceKlass com/android/tools/r8/ir/optimize/l
+instanceKlass com/android/tools/r8/shaking/MainDexClasses
+instanceKlass com/android/tools/r8/ir/optimize/A
+instanceKlass com/android/tools/r8/ir/regalloc/e
+instanceKlass com/android/tools/r8/ir/conversion/Z
+instanceKlass com/android/tools/r8/ir/conversion/U
+instanceKlass com/android/tools/r8/position/Position
+instanceKlass com/android/tools/r8/u/b/L0
+instanceKlass com/android/tools/r8/ir/conversion/O
+instanceKlass com/android/tools/r8/v/a/a/a/h/E
+instanceKlass com/android/tools/r8/graph/p0
+instanceKlass com/android/tools/r8/u/a/q/b
+instanceKlass com/android/tools/r8/graph/S0/b
+instanceKlass com/android/tools/r8/graph/f
+instanceKlass com/android/tools/r8/graph/D0$$Lambda$723
+instanceKlass com/android/tools/r8/graph/y$b
+instanceKlass com/android/tools/r8/r/n/z
+instanceKlass com/android/tools/r8/graph/R0/b
+instanceKlass com/android/tools/r8/ir/optimize/d
+instanceKlass com/android/tools/r8/graph/N0
+instanceKlass com/android/tools/r8/utils/N0$$Lambda$722
+instanceKlass com/android/tools/r8/utils/U0
+instanceKlass com/android/tools/r8/graph/b0$$Lambda$721
+instanceKlass java/lang/invoke/LambdaForm$MH
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass com/android/tools/r8/graph/u0$b$$Lambda$720
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass java/lang/invoke/LambdaForm$MH
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass com/android/tools/r8/graph/u0$$Lambda$719
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass com/android/tools/r8/ir/optimize/info/s/b
+instanceKlass com/android/tools/r8/ir/optimize/info/e
+instanceKlass com/android/tools/r8/ir/optimize/info/g
+instanceKlass com/android/tools/r8/ir/conversion/b0
+instanceKlass com/android/tools/r8/ir/optimize/info/b
+instanceKlass com/android/tools/r8/u/a/q/a
+instanceKlass com/android/tools/r8/ir/optimize/info/f
+instanceKlass com/android/tools/r8/s/a/a/a/v$a
+instanceKlass com/android/tools/r8/s/a/a/a/v
+instanceKlass com/android/tools/r8/graph/s0
+instanceKlass com/android/tools/r8/x/b/a/m0
+instanceKlass com/android/tools/r8/utils/P
+instanceKlass com/android/tools/r8/graph/t0$$Lambda$718
+instanceKlass com/android/tools/r8/graph/t0$$Lambda$717
+instanceKlass com/android/tools/r8/B/a/a/B
+instanceKlass com/android/tools/r8/x/b/a/c
+instanceKlass com/android/tools/r8/B/a/a/k
+instanceKlass com/android/tools/r8/graph/u0$e
+instanceKlass com/android/tools/r8/B/a/a/u
+instanceKlass com/android/tools/r8/B/a/a/n
+instanceKlass com/android/tools/r8/B/a/a/j
+instanceKlass com/android/tools/r8/B/a/a/s
+instanceKlass com/android/tools/r8/B/a/a/d
+instanceKlass com/android/tools/r8/B/a/a/f
+instanceKlass com/google/common/util/concurrent/InterruptibleTask$DoNothingRunnable
+instanceKlass com/android/tools/r8/dex/a$a$$Lambda$716
+instanceKlass com/android/tools/r8/graph/p$$Lambda$715
+instanceKlass com/android/tools/r8/dex/a$a$$Lambda$714
+instanceKlass com/android/tools/r8/B/a/a/a
+instanceKlass com/android/tools/r8/graph/u0
+instanceKlass com/android/tools/r8/graph/p$$Lambda$713
+instanceKlass com/android/tools/r8/graph/p$$Lambda$712
+instanceKlass com/android/tools/r8/graph/p$$Lambda$711
+instanceKlass com/android/tools/r8/graph/p$$Lambda$710
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass com/android/tools/r8/graph/p$$Lambda$709
+instanceKlass com/android/tools/r8/graph/p$$Lambda$708
+instanceKlass com/android/tools/r8/graph/p$a
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass com/android/tools/r8/graph/c
+instanceKlass com/android/tools/r8/graph/O
+instanceKlass com/android/tools/r8/graph/b0$b
+instanceKlass com/android/tools/r8/graph/j0
+instanceKlass com/android/tools/r8/graph/F0
+instanceKlass com/android/tools/r8/graph/t0
+instanceKlass com/android/tools/r8/dex/a$a
+instanceKlass com/android/tools/r8/utils/N0$$Lambda$707
+instanceKlass com/android/tools/r8/dex/a$b
+instanceKlass com/android/tools/r8/graph/b
+instanceKlass com/android/tools/r8/utils/H
+instanceKlass com/android/tools/r8/graph/y
+instanceKlass com/android/tools/r8/graph/y$a
+instanceKlass com/android/tools/r8/dex/a
+instanceKlass com/android/tools/r8/utils/c1$b
+instanceKlass com/android/tools/r8/utils/c1
+instanceKlass com/android/tools/r8/D8$$Lambda$706
+instanceKlass com/android/tools/r8/utils/W$a
+instanceKlass com/android/tools/r8/utils/t
+instanceKlass com/android/tools/r8/utils/g0$g$b
+instanceKlass com/android/tools/r8/utils/g0$g$a
+instanceKlass com/android/tools/r8/utils/c0$a
+instanceKlass com/android/tools/r8/utils/c0
+instanceKlass com/android/tools/r8/utils/g0$g
+instanceKlass com/android/tools/r8/utils/g0$b
+instanceKlass com/android/tools/r8/utils/g0$f
+instanceKlass com/android/tools/r8/utils/g0$d
+instanceKlass com/android/tools/r8/utils/g0$$Lambda$705
+instanceKlass com/android/tools/r8/utils/e1
+instanceKlass com/android/tools/r8/Version
+instanceKlass com/android/tools/r8/references/TypeReference
+instanceKlass com/android/tools/r8/utils/g0
+instanceKlass com/android/tools/r8/ir/optimize/info/k
+instanceKlass com/android/tools/r8/ir/conversion/T
+instanceKlass com/android/tools/r8/ir/conversion/M
+instanceKlass com/android/tools/r8/D8
+instanceKlass com/android/tools/r8/DataResourceProvider
+instanceKlass com/android/tools/r8/utils/e$b$a
+instanceKlass com/android/tools/r8/u/c/Q
+instanceKlass com/android/tools/r8/u/c/m
+instanceKlass com/android/tools/r8/y/a$d
+instanceKlass com/android/tools/r8/y/a$c
+instanceKlass java/util/stream/Sink$ChainedInt
+instanceKlass java/util/stream/Sink$OfInt
+instanceKlass java/util/function/IntConsumer
+instanceKlass com/android/tools/r8/y/a$b$$Lambda$704
+instanceKlass java/util/stream/IntPipeline$$Lambda$703
+instanceKlass java/util/stream/Streams$RangeIntSpliterator
+instanceKlass com/android/tools/r8/v/a/a/a/h/d
+instanceKlass com/android/tools/r8/y/a$b
+instanceKlass com/android/tools/r8/y/a
+instanceKlass com/android/tools/r8/s/a/a/a/w
+instanceKlass com/android/tools/r8/s/a/a/b/s$$Lambda$702
+instanceKlass com/android/tools/r8/graph/W$$Lambda$701
+instanceKlass com/android/tools/r8/graph/W$$Lambda$700
+instanceKlass com/android/tools/r8/s/a/a/b/s
+instanceKlass com/android/tools/r8/s/a/a/b/v$$Lambda$699
+instanceKlass com/android/tools/r8/graph/W$$Lambda$698
+instanceKlass com/android/tools/r8/s/a/a/b/I$b
+instanceKlass com/android/tools/r8/graph/W$$Lambda$697
+instanceKlass com/android/tools/r8/graph/W$$Lambda$696
+instanceKlass com/android/tools/r8/graph/W$$Lambda$695
+instanceKlass java/util/stream/Streams$AbstractStreamBuilderImpl
+instanceKlass com/android/tools/r8/utils/L0
+instanceKlass com/android/tools/r8/graph/W$p
+instanceKlass com/android/tools/r8/graph/W$o
+instanceKlass com/android/tools/r8/graph/W$m
+instanceKlass com/android/tools/r8/graph/W$c
+instanceKlass com/android/tools/r8/s/a/a/b/P
+instanceKlass com/android/tools/r8/s/a/a/b/b0$a
+instanceKlass com/android/tools/r8/graph/W$n
+instanceKlass com/android/tools/r8/graph/W$j
+instanceKlass com/android/tools/r8/graph/W$g
+instanceKlass com/android/tools/r8/graph/W$f
+instanceKlass com/android/tools/r8/graph/W$e
+instanceKlass com/android/tools/r8/graph/W$b
+instanceKlass com/android/tools/r8/graph/W$s
+instanceKlass com/android/tools/r8/graph/W$h
+instanceKlass com/android/tools/r8/graph/W$i
+instanceKlass com/android/tools/r8/graph/W$r
+instanceKlass com/android/tools/r8/graph/W$k
+instanceKlass com/android/tools/r8/graph/W$l
+instanceKlass com/android/tools/r8/graph/W$d
+instanceKlass com/android/tools/r8/utils/W
+instanceKlass com/android/tools/r8/u/b/h0
+instanceKlass com/android/tools/r8/u/b/j1
+instanceKlass com/android/tools/r8/u/b/k0
+instanceKlass com/android/tools/r8/graph/W$q
+instanceKlass com/android/tools/r8/v/a/a/a/c
+instanceKlass com/android/tools/r8/v/a/a/a/f/T
+instanceKlass com/android/tools/r8/v/a/a/a/h/p0
+instanceKlass com/android/tools/r8/v/a/a/a/h/h0
+instanceKlass com/android/tools/r8/v/a/a/a/f/z0
+instanceKlass com/android/tools/r8/v/a/a/a/f/h0
+instanceKlass com/android/tools/r8/v/a/a/a/h/U0
+instanceKlass com/android/tools/r8/s/a/a/b/k
+instanceKlass com/android/tools/r8/s/a/a/b/b0
+instanceKlass com/android/tools/r8/utils/W0
+instanceKlass com/android/tools/r8/utils/x
+instanceKlass com/android/tools/r8/ir/analysis/type/u
+instanceKlass com/android/tools/r8/graph/K0
+instanceKlass com/android/tools/r8/graph/V
+instanceKlass com/android/tools/r8/v/a/a/a/f/c
+instanceKlass com/android/tools/r8/s/a/a/b/p
+instanceKlass com/android/tools/r8/v/a/a/a/f/S
+instanceKlass com/android/tools/r8/v/a/a/a/f/Q
+instanceKlass com/android/tools/r8/graph/W
+instanceKlass com/android/tools/r8/utils/T
+instanceKlass com/android/tools/r8/utils/K0
+instanceKlass com/android/tools/r8/utils/Y
+instanceKlass com/android/tools/r8/ProgramResource$ByteResource
+instanceKlass com/android/tools/r8/ProgramResource
+instanceKlass com/android/tools/r8/BaseCommand$Builder$$Lambda$694
+instanceKlass com/android/builder/dexing/ClassFile
+instanceKlass com/android/builder/dexing/FileBasedClassFileEntry
+instanceKlass com/android/builder/dexing/ClassBucketGroupKt
+instanceKlass com/android/builder/dexing/ClassFileInput$$Lambda$693
+instanceKlass java/util/stream/StreamSpliterators$WrappingSpliterator$$Lambda$691
+instanceKlass com/android/builder/dexing/D8DexArchiveBuilder$$Lambda$689
+instanceKlass com/android/tools/r8/BaseCompilerCommand$Builder$$Lambda$687
+instanceKlass com/android/tools/r8/o
+instanceKlass com/android/tools/r8/ProgramResourceProvider
+instanceKlass com/android/tools/r8/utils/e$b
+instanceKlass com/android/tools/r8/DataResourceProvider$Visitor
+instanceKlass com/android/tools/r8/DataResource
+instanceKlass com/android/tools/r8/Resource
+instanceKlass com/android/tools/r8/v/a/a/a/h/N
+instanceKlass com/android/tools/r8/v/a/a/a/h/I
+instanceKlass com/android/tools/r8/v/a/a/a/a
+instanceKlass com/android/tools/r8/B/a/a/h
+instanceKlass com/android/tools/r8/utils/e
+instanceKlass com/android/tools/r8/utils/O0
+instanceKlass com/android/tools/r8/ClassFileConsumer$ForwardingConsumer
+instanceKlass com/android/tools/r8/ClassFileConsumer
+instanceKlass com/android/tools/r8/DexFilePerClassFileConsumer$ForwardingConsumer
+instanceKlass com/android/tools/r8/DexFilePerClassFileConsumer
+instanceKlass com/android/tools/r8/j
+instanceKlass com/android/tools/r8/DataResourceConsumer
+instanceKlass com/android/tools/r8/DexIndexedConsumer$ForwardingConsumer
+instanceKlass com/android/tools/r8/DexIndexedConsumer
+instanceKlass com/android/tools/r8/ByteBufferProvider
+instanceKlass com/android/tools/r8/ProgramConsumer
+instanceKlass com/android/tools/r8/s/a/a/b/N0
+instanceKlass com/android/tools/r8/s/a/a/a/E
+instanceKlass com/android/tools/r8/s/a/a/a/V
+instanceKlass com/android/tools/r8/s/a/a/a/J
+instanceKlass com/android/tools/r8/s/a/a/a/D
+instanceKlass com/android/tools/r8/s/a/a/b/B
+instanceKlass com/android/tools/r8/s/a/a/b/M2
+instanceKlass com/android/tools/r8/s/a/a/b/v
+instanceKlass com/android/tools/r8/BaseCommand$Builder
+instanceKlass com/android/tools/r8/Diagnostic
+instanceKlass com/android/tools/r8/b
+instanceKlass com/android/tools/r8/BaseCommand
+instanceKlass com/android/tools/r8/origin/Origin
+instanceKlass java/util/stream/Streams$2
+instanceKlass java/util/stream/Streams
+instanceKlass java/util/stream/Streams$ConcatSpliterator
+instanceKlass com/android/builder/dexing/DirectoryBasedClassFileInput$$Lambda$686
+instanceKlass com/android/builder/dexing/DirectoryBasedClassFileInput$$Lambda$684
+instanceKlass com/android/builder/dexing/DirectoryBasedClassFileInput$$Lambda$681
+instanceKlass java/nio/file/Files$$Lambda$679
+instanceKlass java/nio/file/Files$$Lambda$677
+instanceKlass java/nio/file/FileTreeIterator
+instanceKlass com/android/builder/dexing/ClassBucket$getClassFiles$1
+instanceKlass com/android/builder/dexing/ClassFileEntry
+instanceKlass com/android/builder/dexing/DirectoryBasedClassFileInput
+instanceKlass sun/nio/fs/WindowsFileSystem$2
+instanceKlass java/nio/file/PathMatcher
+instanceKlass sun/nio/fs/Globs
+instanceKlass com/android/builder/dexing/ClassFileInput
+instanceKlass com/android/builder/dexing/ClassFileInputs
+instanceKlass com/android/builder/dexing/D8DesugarGraphConsumer
+instanceKlass com/android/tools/r8/StringConsumer
+instanceKlass com/android/builder/dexing/D8DiagnosticsHandler
+instanceKlass com/android/tools/r8/DiagnosticsHandler
+instanceKlass com/android/builder/dexing/DexParameters
+instanceKlass com/android/builder/dexing/DexArchiveBuilder$Companion
+instanceKlass com/android/builder/dexing/DexArchiveBuilder
+instanceKlass com/android/build/gradle/internal/dexing/DexWorkActionKt$WhenMappings
+instanceKlass com/android/build/gradle/internal/dexing/DexWorkActionKt
+instanceKlass com/android/build/gradle/internal/tasks/DexArchiveBuilderTaskDelegate$D8DesugaringCacheInfo
+instanceKlass com/android/build/gradle/internal/tasks/DexArchiveBuilderTaskDelegate$convertToDexArchive$3
+instanceKlass com/android/build/gradle/internal/dexing/DexWorkAction
+instanceKlass com/android/build/gradle/internal/dexing/DexParametersForWorkers$Companion
+instanceKlass com/android/build/gradle/internal/dexing/DexParametersForWorkers
+instanceKlass com/android/build/gradle/internal/dexing/IncrementalDexSpec$Companion
+instanceKlass com/android/build/gradle/internal/dexing/IncrementalDexSpec
+instanceKlass com/android/build/gradle/internal/dexing/DexWorkActionParams$Companion
+instanceKlass com/android/build/gradle/internal/dexing/DexWorkActionParams
+instanceKlass com/android/builder/dexing/ClassBucket$Companion
+instanceKlass com/android/builder/dexing/ClassBucket
+instanceKlass com/android/build/gradle/internal/tasks/DexOutputs
+instanceKlass com/android/builder/dexing/DirectoryBucketGroup$Companion
+instanceKlass com/android/builder/dexing/ClassBucketGroup$Companion
+instanceKlass com/android/builder/dexing/ClassBucketGroup
+instanceKlass kotlin/collections/MapWithDefault
+instanceKlass com/android/build/gradle/internal/tasks/DexArchiveBuilderTaskDelegate$ClasspathServiceKey
+instanceKlass com/android/builder/dexing/r8/ClassFileProviderFactory$OrderedClassFileResourceProvider$$Lambda$676
+instanceKlass com/android/builder/dexing/r8/ClassFileProviderFactory$OrderedClassFileResourceProvider
+instanceKlass com/android/tools/r8/ClassFileResourceProvider
+instanceKlass com/android/builder/dexing/r8/ClassFileProviderFactory
+instanceKlass com/android/build/gradle/internal/tasks/DexArchiveBuilderTaskDelegateKt
+instanceKlass com/android/build/gradle/internal/tasks/DesugarIncrementalHelper$$Lambda$675
+instanceKlass com/android/builder/desugaring/DesugaringGraph
+instanceKlass com/android/builder/desugaring/DesugaringGraphs
+instanceKlass com/android/build/gradle/internal/tasks/DesugarIncrementalHelper$$Lambda$674
+instanceKlass com/android/build/gradle/internal/tasks/DesugarIncrementalHelper$$Lambda$673
+instanceKlass com/android/build/gradle/internal/tasks/DesugarIncrementalHelper$$Lambda$672
+instanceKlass com/android/build/gradle/internal/tasks/DexArchiveBuilderTaskDelegate$desugarIncrementalHelper$1
+instanceKlass com/android/build/gradle/internal/tasks/DesugarIncrementalHelper
+instanceKlass com/android/ide/common/internal/WaitableExecutor
+instanceKlass com/android/build/gradle/internal/tasks/DexArchiveBuilderTaskDelegate$Companion
+instanceKlass com/android/build/gradle/internal/tasks/DexArchiveBuilderTaskDelegate
+instanceKlass com/android/build/gradle/internal/tasks/DexArchiveBuilderCacheHandler
+instanceKlass com/android/build/gradle/internal/dexing/DxDexParameters$Companion
