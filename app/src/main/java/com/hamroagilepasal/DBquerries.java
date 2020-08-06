@@ -14,6 +14,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.google.firebase.Timestamp;
 import com.hamroagilepasal.ui.my_cart.MyCartFragment;
 import com.hamroagilepasal.ui.my_mall.MyMallFragment;
 import com.hamroagilepasal.ui.my_orders.MyOrdersFragment;
@@ -577,7 +578,7 @@ public class DBquerries {
                                                                 ,documentSnapshot.get("lower_limit").toString()
                                                                 ,documentSnapshot.get("percentage").toString()
                                                                 ,documentSnapshot.get("body").toString()
-                                                                ,(java.util.Date) documentSnapshot.get("validity")
+                                                                ,((Timestamp) documentSnapshot.get("validity")).toDate()
                                                                 ,(boolean)documentSnapshot.get("alreadyUsed")
                                                         ));
                                                     }else if(documentSnapshot.get("type").toString().equals("Flat Rs.* OFF") && lastseendate.before(documentSnapshot.getDate("validity"))){
