@@ -589,7 +589,7 @@ public class DBquerries {
                                                                 ,documentSnapshot.get("lower_limit").toString()
                                                                 ,documentSnapshot.get("amount").toString()
                                                                 ,documentSnapshot.get("body").toString()
-                                                                ,(java.util.Date)documentSnapshot.get("validity")
+                                                                ,((Timestamp) documentSnapshot.get("validity")).toDate()
                                                                 ,(boolean)documentSnapshot.get("alreadyUsed")
                                                         ));
                                                     }
