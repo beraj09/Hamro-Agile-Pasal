@@ -181,8 +181,10 @@ public class DeliveryActivity extends AppCompatActivity {
         cod.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                paymentMethod="COD";
-                placeOrderDetails();
+//                paymentMethod="COD";
+//                placeOrderDetails();
+                Intent i = new Intent( DeliveryActivity.this,MainActivity.class);
+                startActivity(i);
             }
         });
 
@@ -190,8 +192,10 @@ public class DeliveryActivity extends AppCompatActivity {
         paytm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                paymentMethod="PAYTM";
-                placeOrderDetails();
+//                paymentMethod="PAYTM";
+//                placeOrderDetails();
+                Intent i = new Intent( DeliveryActivity.this,MainActivity.class);
+                startActivity(i);
             }
         });
 
