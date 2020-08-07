@@ -34,7 +34,7 @@
         android:textStyle="bold"
         android:textSize="22sp"
         android:textAlignment="center"
-        android:text="Verification code has been sent to +91 9874561234"
+        android:text="Verification code has been sent to +977 9874561234"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView4" />
