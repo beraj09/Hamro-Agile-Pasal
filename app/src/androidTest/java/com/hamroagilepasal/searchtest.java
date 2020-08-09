@@ -12,15 +12,16 @@ import static androidx.test.espresso.matcher.ViewMatchers.withId;
 
 public class searchtest {
     @Rule
-    public ActivityTestRule<RegisterActivity> SigninFragmentTestRule = new ActivityTestRule<>(RegisterActivity.class);
+    public ActivityTestRule<SearchActivity> SigninFragmentTestRule = new ActivityTestRule<>(SearchActivity.class);
     //    public ActivityTestRule<Activity_login> activityTestRule = new ActivityTestRule<>(Activity_login.class);
 //
     @Test
-    public void wallarttest() {
-        onView(withId(R.id.search_view)).perform(typeText( "samsung" ));
+    public void search() {
+        onView(withId(R.id.search_view)).perform(typeText("samsung"));
         closeSoftKeyboard();
         onView(withId(R.id.search_view)).perform(click());
     }
+
 }
 
 
