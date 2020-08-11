@@ -17,13 +17,13 @@ public class address {
 //
     @Test
     public void addaddress() {
-        onView(withId(R.id.city)).perform(typeText( "ktm" ));
+        onView(withId(R.id.city)).perform(typeText( "kathmandu" ));
         closeSoftKeyboard();
-        onView(withId(R.id.locality)).perform(typeText( "ktm" ));
+        onView(withId(R.id.locality)).perform(typeText( "tokha" ));
         closeSoftKeyboard();
-        onView(withId(R.id.flat_no)).perform(typeText( "ktm" ));
+        onView(withId(R.id.flat_no)).perform(typeText( "1001" ));
         closeSoftKeyboard();
-        onView(withId(R.id.pincode)).perform(typeText( "46000" ));
+        onView(withId(R.id.pincode)).perform(typeText( "46600" ));
         closeSoftKeyboard();
         onView(withId(R.id.name)).perform(typeText( "gaurav" ));
         closeSoftKeyboard();
