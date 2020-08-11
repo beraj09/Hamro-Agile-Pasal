@@ -19,8 +19,8 @@ public class wishlist {
 //
     @Test
     public void addwishlist() {
-        onView(withId(R.id.nav_my_wishlist)).perform(click());
-        onView(withId(R.id.nav_my_wishlist)).perform(click());
+        onView(withId(R.id.toolbar)).perform(click());
+        onView(with)
     }
 
 }
