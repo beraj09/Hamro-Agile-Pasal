@@ -9,6 +9,7 @@ import static androidx.test.espresso.Espresso.onView;
 import static androidx.test.espresso.action.ViewActions.click;
 import static androidx.test.espresso.action.ViewActions.typeText;
 import static androidx.test.espresso.matcher.ViewMatchers.withId;
+import static androidx.test.espresso.matcher.ViewMatchers.withSpinnerText;
 
 
 public class resetaccountpassword {
@@ -17,12 +18,10 @@ public class resetaccountpassword {
 
     @Test
     public void resetpassword() {
-        onView(withId(R.id.old_password)).perform(typeText("qwertyui"));
+
+
+        onView(withId(R.id.email_et)).perform(typeText("tashitest@tashi.com"));
         closeSoftKeyboard();
-        onView(withId(R.id.new_password)).perform(typeText("tashitest"));
-        closeSoftKeyboard();
-        onView(withId(R.id.confirm_new_password)).perform(typeText("tashitest"));
-        closeSoftKeyboard();
-        onView(withId(R.id.update_pass_btn)).perform(click());
+        onView(withId(R.id.update_info_button)).perform(click());
     }
 }
